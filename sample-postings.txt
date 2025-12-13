@@ -1,0 +1,1741 @@
+Software Engineer - MLOps- job post
+CARFAX
+100 Kellogg Lane, Suite #301, London, ON N5W 0B4
+Full-time
+CARFAX
+100 Kellogg Lane, Suite #301, London, ON N5W 0B4
+Skills
+
+Torch
+
+Test-driven development
+
+TensorFlow
+
+Education
+
+Bachelor's
+
+&nbsp;
+Job details
+Job type
+
+Full-time
+&nbsp;
+Location
+100 Kellogg Lane, Suite #301, London, ON N5W 0B4
+&nbsp;
+Benefits
+Pulled from the full job description
+Flexible schedule
+&nbsp;
+Full job description
+Join Team CARFAX as a Software Engineer - MLOps
+Isn't it time you bragged about where you work? At CARFAX, we do, every day. We pride ourselves on being mission-focused on helping to grow a brand built on accuracy and integrity. We care deeply about our products and our customers. We’re more than just a company: We help millions of consumers make more-informed decisions every day. We know that our teammates are our most valuable asset, and we value a balanced life while tackling challenging projects in a fast-paced environment.
+At CARFAX, we believe in the power of teamwork and value in-person interactions so that we can collaborate and thrive together. This position will require 2 days in the London, ON office per week, subject to change with future business needs.
+As a Software Engineer – MLOps, you will be a part of the CARFAX Data & AI / ML team. You will be working collaboratively with ML Engineers and Data Scientists to build and scale machine learning solutions, platforms, and pipelines to support machine learning initiatives at CARFAX. Leveraging the latest techniques and tools, this unique opportunity will aim to unlock the hidden potential in billions of records and enrich the quality of data provided by our automotive reporting products delivered daily to consumers across the globe.
+Note: This role will not be involved in building, developing any machine learning models.
+
+What you'll be doing:
+Work in a team environment using Agile practices
+Utilize Test Driven Development, Paired Programming and Continuous Integration
+Innovate new ideas to evolve our applications and processes
+Participate in the design and development of our machine learning end-to-end solutions
+Develop high performing data streams and APIs to guarantee fast and accurate delivery
+What we're looking for:
+Bachelor’s degree or diploma in Computer Science, Computer Engineering (or related fields of study)
+Experience building algorithms using Python
+Software engineering skills: version control, build pipelines, object-oriented programming, coding standards, code reviews, and testing
+Experience with containerization & microservices (e.g. Docker) for ML model deployment
+Experience with AWS (e.g. EC2, VPCs, Lambda, API Gateway, etc.)
+CI/CD pipeline automation experience with Jenkins, GitLab, or AWS Code Build
+Experience with Test Driven Development (TDD)
+Preferred Experience:
+Experience designing and building machine learning solutions to solve business problems (e.g. end-to-end architecture, design alternatives and trade-offs, third-party products integrations, etc.)
+Any experience with MLOps platforms, eg. Containerization.
+DevOps expertise with tools such as Kubernetes, Artifactory, AWS CloudFormation, AWS CDK
+Relational and NoSQL database systems experience
+Shell scripting experience
+Experience with parallel processing on GPU machines (e.g. multiprocessing, distributed ML training, etc.)
+Nice-to-have:
+Experience building and releasing SDKs
+Experience with ML frameworks (e.g. Tensorflow, Torch)
+Orchestration experience (tools like Tecton, Airflow, MLFlow, Luigi, Apache Beam, Kubeflow, etc.)
+Solid grasp of machine learning fundamentals (classification and regression models, model monitoring and validation)
+What’s in it for you:
+Competitive Compensation: Attractive salary, comprehensive benefits, and generous time-off policies.
+Flexible Work Schedules: Enjoy 4-day summer work weeks and a winter holiday break.
+Retirement Support: 401(k) / DCPP matching.
+Performance Rewards: Annual bonus program to recognize your contributions.
+Innovative Workspace: Casual, dog-friendly offices designed for creativity and collaboration.
+Hear from our Team: Our accolades speak for themselves:
+10X Virginia Business Best Places to Work
+9X Washingtonian Great Places to Work
+9X Washington Post Top Workplace
+St. Louis Post-Dispatch Best Places to Work
+
+====
+
+Software Engineer - API- job post
+CMiC
+Toronto, ON M3J 3K1•Hybrid work
+Full-time
+CMiC
+Toronto, ON M3J 3K1•Hybrid work
+Profile insights
+Here’s how the job qualifications align with your profile.
+Skills
+
+SQL
+
+REST
+
+PL/SQL
+
+&nbsp;
+Job details
+Job type
+
+Full-time
+&nbsp;
+Location
+Toronto, ON M3J 3K1•Hybrid work
+&nbsp;
+Benefits
+Pulled from the full job description
+Dental care
+Paid vacation
+RRSP match
+Wellness program
+&nbsp;
+Full job description
+About CMiC
+Headquartered in Toronto, CMiC is a software company focused on the Construction industry. We have built a comprehensive platform for construction companies to manage their most important workflows. Our customers have their choice of a SaaS or Private Hosted platform that includes industry focused modules to manage everything from Financials and Payroll to Project Management and Budgeting. Our market share is very strong in North America and rapidly expanding internationally in regions like Europe, South East Asia and the Middle East.
+
+Job Overview
+
+The main responsibility of this role is to contribute to the development of RESTful APIs to support our front-end applications. You will modify existing APIs and create new APIs using both Oracle ADF BC REST as well as Jersey frameworks. Development at the database level is also required for this role to support the APIs. Your Tasks would involve:
+
+Design, build, and maintain efficient, reusable, reliable and secure code.
+Improve tools and processes related to API development.
+Create documentation for the APIs, tools and processes that you work on.
+Review code written by others.
+Analyze problems and identify solutions.
+Requirements
+
+Honed interpersonal and communication skills.
+3+ years of work experience using any object-oriented programming languages (preferably Java).
+Understanding of Object-Oriented Programming Concepts and design patterns.
+Understanding of REST over HTTP.
+Understanding of J2EE and experience programming in Java.
+Understanding of RDBS concepts and experience with SQL/PLSQL
+Benefits
+
+Competitive benefits Package (including Health & Dental benefits)
+Paid vacation and personal days
+Townhall meetings where all employees are encouraged to participate in open discussions
+Located on York University’s campus, easily accessible by transit (TTC, GO, etc.), walking distance to shopping and restaurants
+Outdoor lunch space, including picnic tables
+An active Social Events Committee (past events include annual seasonal parties, pool and bowling tournaments, karaoke nights, Game nights, BBQ’s, and more)
+Health and Wellness focus including virtual yoga classes and wellness webinars
+RRSP Matching Program after 2 years of employment
+Experience in a rapidly growing, socially responsible corporation
+CMiC is an Equal Opportunity Employer. In accordance with the Accessibility for Ontarians with Disabilities Act, 2005 and the Ontario Human Rights Code, CMiC will provide accommodation to applicants with disabilities throughout the recruitment, selection and/or assessment process. If selected to participate in the recruitment, selection and/or assessment process, please inform Human Resources staff of the nature of any accommodation(s) that you may require.
+
+====
+
+Software Developer - Embedded Systems (BSP)- job post
+Syntronic
+Kanata, ON
+Permanent
+Syntronic
+Kanata, ON
+Profile insights
+Skills
+
+Telecommunication
+
+TCP/IP
+
+TCP
+
+Education
+
+Bachelor's
+
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Job type
+
+Permanent
+&nbsp;
+Location
+Kanata, ON
+&nbsp;
+Full job description
+Join Syntronic: Where Your Innovation Shapes the Future
+At Syntronic, we don't just follow industry trends—we set them! Join us in partnering with visionary companies and the brightest minds to turn ground-breaking ideas into reality. Imagine working on cutting-edge telecom advancements, pioneering automotive tech, life-saving healthcare innovations, and next-gen industrial automation. Our projects are diverse, impactful, and at the forefront of technological innovation. Be a part of something extraordinary!
+
+Who are we?:
+Syntronic is a global leader in design and development, specializing in electronics, electro-mechanics, and software. We’re not just a company; we’re a community of innovators. Our teams work on projects that define the future—from creating state-of-the-art communication systems and autonomous vehicles to advancing IoT solutions that revolutionize everyday life. At Syntronic, your work will make a real difference.
+
+What we're looking for:
+We are seeking individuals who want to:
+Collaborate with top-tier clients on transformative, cutting-edge projects.
+Engage with and learn from industry leaders
+Innovate from concept to completion, ensuring high standards.
+Gain international experience on global projects.
+Thrive in an entrepreneurial environment that supports new ideas.
+Explore multiple sectors like telecommunications, automotive, healthcare, and industrial automation.
+What you’ll do
+You will be an integral contributor to a team responsible for the development of lower layer automotive software including OS, kernel, and drivers, and of core services such as file systems, graphics, networking, and video.
+You will be responsible to:
+Develop C/C++/Java services for automotive infotainment systems
+Work on proof of concepts for next-generation infotainment systems
+Investigate system and BSP failures from internal users and external customers
+What you need to get the job done
+Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering
+5-15 years of development experience working on operating systems, kernel, drivers, and core services such as file systems, graphics, networking, USB, and Wi-Fi
+Prior experience in developing and testing drivers and BSP
+Strong grasp of hardware design and embedded operating system concepts
+A passion for solving tough problems with limited information
+Experience with Agile development processes and tools
+Excellent written and oral communication skills
+What will make us REALLY love you
+Direct experience developing device drivers
+Direct experience adapting an operating system to a hardware platform, especially Linux and Android
+Direct experience with QNX operating system
+Direct experience in automotive or other safety-critical systems (telecom, nuclear, medical)
+Experience with communication protocols: CAN, TCP/IP, USB, Bluetooth, Ethernet, and/or Wi-Fi
+Knowledge of messaging stacks such as dbus, binder, aidl
+Knowledge of low power suspend technologies for consumer products
+Knowledge of video distribution as part of video systems integration
+#SyntronicP1
+
+What you’ll love about us:
+At Syntronic, our employees are our greatest asset. We foster innovation, collaboration, and excellence, offering opportunities for personal and professional growth. Join a global community that values creativity and diversity.
+
+Ready to Shape the Future with Us?
+If you’re ready to elevate your career and be part of a team that’s making a real impact, we want to hear from you. Apply today and embark on your journey with Syntronic, where your ideas and innovations can truly make a difference.
+
+====
+
+Software Developer – Python (Embedded Systems)- job post
+Syntronic
+3.9
+3.9 out of 5 stars
+Kanata, ON
+Permanent
+Syntronic
+Kanata, ON
+Profile insights
+Here’s how the job qualifications align with your profile.
+Skills
+
+Telecommunication
+
+Software development
+
+Python
++ show more
+
+Do you have experience in Telecommunication?
+Education
+
+Master's degree
+
+Bachelor's
+
+Do you have a Master's degree?
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Job type
+
+Permanent
+&nbsp;
+Location
+Kanata, ON
+&nbsp;
+Full job description
+Join Syntronic: Where Your Innovation Shapes the Future
+At Syntronic, we don't just follow industry trends—we set them! Join us in partnering with visionary companies and the brightest minds to turn ground-breaking ideas into reality. Imagine working on cutting-edge telecom advancements, pioneering automotive tech, life-saving healthcare innovations, and next-gen industrial automation. Our projects are diverse, impactful, and at the forefront of technological innovation. Be a part of something extraordinary!
+
+Who are we?:
+Syntronic is a global leader in design and development, specializing in electronics, electro-mechanics, and software. We’re not just a company; we’re a community of innovators. Our teams work on projects that define the future—from creating state-of-the-art communication systems and autonomous vehicles to advancing IoT solutions that revolutionize everyday life. At Syntronic, your work will make a real difference.
+
+What we're looking for:
+We are seeking individuals who want to:
+Collaborate with top-tier clients on transformative, cutting-edge projects.
+Engage with and learn from industry leaders
+Innovate from concept to completion, ensuring high standards.
+Gain international experience on global projects.
+Thrive in an entrepreneurial environment that supports new ideas.
+Explore multiple sectors like telecommunications, automotive, healthcare, and industrial automation.
+What you'll do
+Collaborate with experienced engineers in the design, coding, testing, and maintenance of software applications.
+Develop and maintain embedded software modules using programming languages like C++ and Python.
+Assist in the implementation of networking solutions, ensuring seamless communication between software components.
+Contribute to the development of software tools, libraries, and frameworks to enhance overall product quality and efficiency.
+Participate in code reviews, providing constructive feedback to enhance code quality and adherence to coding standards.
+Collaborate with the team to troubleshoot and resolve software defects and technical issues.
+Support the integration of software components on Linux operating systems.
+Assist in the testing and validation of software features, ensuring functionality and performance meet specified requirements.
+Utilize cloud technologies to enhance software deployment and management.
+Collaborate with cross-functional teams, including product managers and designers, to understand requirements and contribute to technical discussions.
+Maintain clear and organized documentation of software designs, processes, and development tasks.
+Demonstrate effective teamwork and communication skills, both orally and in writing. Lead the design, development, and implementation of advanced satellite ground segment software systems, ensuring high performance, scalability, and reliability.
+What you'll need to get the job done
+5+ Years of experience with Python
+Bachelor’s or master’s degree in computer science, Electrical Engineering, or a related field.
+Experience in software development, focusing on embedded systems.
+Basic understanding of networking concepts and protocols.
+Proficiency in using the Linux operating system.
+Cloud technology familiarity is a plus.
+Strong analytical and problem-solving skills.
+Team player with the ability to collaborate effectively within a diverse team.
+Good oral and written communication skills.
+Enthusiasm for learning new technologies and tools.
+Detail-oriented with a commitment to producing high-quality software.
+Ability to design software with consideration for hardware resource constraints.
+The successful candidate must be able to work in Canada and obtain clearance under the Canadian Controlled Goods program (CGP) - be a Canadian Citizen or PR and remain in Canada for last 5 years.
+What will make us REALLY love you
+Expert command of Python, OPP, experience building complex applications with Python.
+Experience building simulations systems, HIL, SIL is a plus.
+Experience with model based design and simulation tools (Capella, Mathlab)
+Understanding of network architectures and protocols is a plus
+Experience in telecom and/or satellite communications is a plus.
+#SyntronicP1
+
+What you’ll love about us:
+At Syntronic, our employees are our greatest asset. We foster innovation, collaboration, and excellence, offering opportunities for personal and professional growth. Join a global community that values creativity and diversity.
+
+Ready to Shape the Future with Us?
+If you’re ready to elevate your career and be part of a team that’s making a real impact, we want to hear from you. Apply today and embark on your journey with Syntronic, where your ideas and innovations can truly make a difference.
+
+====
+
+Profile insights
+Here’s how the job qualifications align with your profile.
+Skills
+
+Python
+ (Required)
+
+C++
+ (Required)
+
+C
+ (Required)
+
+Software development
+
+Verilog
+
+Rust (programming language)
+
+Research
+
+FPGA
+
+Leadership
+
+Communication skills
+- show less
+Education
+
+Bachelor's
+ (Required)
+Languages
+
+English
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Pay
+
+$90,000–$120,000 a year
+Job type
+
+Full-time
+Shift and schedule
+
+8 hour shift
+
+Day shift
+
+Monday to Friday
+&nbsp;
+Location
+Kanata, ON K2K 2E1•Hybrid work
+&nbsp;
+Benefits
+Pulled from the full job description
+Paid time off
+Vision care
+Dental care
+Life insurance
+Disability insurance
+Casual dress
+Extended health care
+&nbsp;
+Full job description
+Agile Electromagnetics is a Canadian company focused on developing next generation remote sensing and counter-drone systems. We have a range of projects, that require development of embedded software and systems running on AMD/Xilinx System-on-Chip devices as well as server and user facing applications that interact with these systems.
+
+This role will be a critical part of our team, developing software in collaboration with 2 to 3 other engineers. They will work closely with the hardware, FPGA, and signal processing teams to deliver novel solutions for our customers. This role requires someone with the ability to learn quickly, work both independently and collaboratively, communicate their vision effectively, and deliver solutions.
+
+Responsibilities
+
+Develop and maintain software and embedded software using programming languages like C, C++, Rust and Python.
+develop of software tools, libraries, and frameworks both independently and as part of a team.
+participate in and conduct code reviews, providing constructive feedback to enhance code quality.
+Maintain documentation of software designs, processes, and development tasks.
+Participate in every phase of product development, including requirements definition, architecture and concept definition, specification and selection of components, algorithm definition, detailed implementation, integration and characterisation
+Qualifications
+
+Experience working on software and embedded software.
+Minimum bachelor’s degree in computer science or engineering.
+Experience developing software for AMD/Xlinix FPGA SoCs is an asset.
+Experience with FPGA (VHDL, Verilog etc. ) programming is an asset.
+Experience developing software using Python, C, and C++.
+Experience developing software with Rust is an asset.
+Excellent problem-solving skills and the ability to conduct independent research
+Excellent English communication skills
+Excellent leadership skills
+This is a hybrid role at our office in Kanata and requires the ability to be certified to access Controlled Goods.
+
+Job Types: Full-time, Permanent
+
+Pay: $90,000.00-$120,000.00 per year
+
+Schedule:
+
+8 hour shift
+Day shift
+Monday to Friday
+Hybrid
+Job Type: Full-time
+
+Pay: $90,000.00-$120,000.00 per year
+
+Benefits:
+
+Casual dress
+Dental care
+Disability insurance
+Extended health care
+Life insurance
+On-site parking
+Paid time off
+Vision care
+Work from home
+Education:
+
+Bachelor's Degree (preferred)
+Language:
+
+English (preferred)
+Work Location: Hybrid remote in Kanata, ON K2K 2E1
+
+====
+
+Embedded Software Developer - Wireless- job post
+Syntronic
+3.9
+3.9 out of 5 stars
+Kanata, ON
+Permanent
+Syntronic
+Kanata, ON
+Profile insights
+Here’s how the job qualifications align with your profile.
+Skills
+
+Telecommunication
+
+Software development
+
+Git
+
+Debugging
+
+C++
+
+C
+
+Analysis skills
+
+5G
+
+4G/LTE
+
+Communication skills
+- show less
+Education
+
+Bachelor's
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Job type
+
+Permanent
+&nbsp;
+Location
+Kanata, ON
+&nbsp;
+Full job description
+Join Syntronic: Where Your Innovation Shapes the Future
+At Syntronic, we don't just follow industry trends—we set them! Join us in partnering with visionary companies and the brightest minds to turn ground-breaking ideas into reality. Imagine working on cutting-edge telecom advancements, pioneering automotive tech, life-saving healthcare innovations, and next-gen industrial automation. Our projects are diverse, impactful, and at the forefront of technological innovation. Be a part of something extraordinary!
+
+Who are we?:
+Syntronic is a global leader in design and development, specializing in electronics, electro-mechanics, and software. We’re not just a company; we’re a community of innovators. Our teams work on projects that define the future—from creating state-of-the-art communication systems and autonomous vehicles to advancing IoT solutions that revolutionize everyday life. At Syntronic, your work will make a real difference.
+
+What we're looking for:
+We are seeking individuals who want to:
+Collaborate with top-tier clients on transformative, cutting-edge projects.
+Engage with and learn from industry leaders
+Innovate from concept to completion, ensuring high standards.
+Gain international experience on global projects.
+Thrive in an entrepreneurial environment that supports new ideas.
+Explore multiple sectors like telecommunications, automotive, healthcare, and industrial automation.
+What you’ll do
+Implementing, troubleshooting, and integrating complex software functionalities in C/C++ code, in a multicore target environment
+Applying knowledge of real-time software development and wireless communication protocols (4G/5G NR)
+Designing, coding, and testing solutions in a timely manner
+Documenting system analysis, software designs, and test plans
+Following an Agile product development process, working collaboratively in cross-functional teams
+Responsible for continuously keeping your competence and skills up to date
+What you'll need to get the job done
+Minimum 3 years experience in a related field, and a bachelor’s degree in Electrical and Computer Engineering or Computer Science
+Strong C/C++ programming skills and experience with software configuration management tools in Git/Gerrit
+Strong problem-solving and debugging skills
+What will make us REALLY love you
+Strong troubleshooting skills in a large-scale system
+Outstanding problem-solving ability, including debugging/analytical skills
+Excellent written and oral communication skills, with the ability to produce clear documentation for both colleagues and customers-
+A friendly willingness to collaborate and play nice with others
+Experience in 4G/5G L2 development is a plus
+Basic understanding of the LTE/5G NR standards (3GPP specifications)
+#SyntronicP1
+
+What you’ll love about us:
+At Syntronic, our employees are our greatest asset. We foster innovation, collaboration, and excellence, offering opportunities for personal and professional growth. Join a global community that values creativity and diversity.
+
+Ready to Shape the Future with Us?
+If you’re ready to elevate your career and be part of a team that’s making a real impact, we want to hear from you. Apply today and embark on your journey with Syntronic, where your ideas and innovations can truly make a difference.
+
+====
+
+C++ Software Engineer III- job post
+Rakuten Kobo
+3.9
+3.9 out of 5 stars
+Toronto, ON•Hybrid work
+Full-time
+Rakuten Kobo
+Toronto, ON•Hybrid work
+Profile insights
+Here’s how the job qualifications align with your profile.
+Skills
+
+Test-driven development
+
+Software development
+
+Shell Scripting
+
+SQLite
+
+OOP
+
+Linux
+
+JavaScript
+
+HTML
+
+Databases
+
+CSS
+
+C++
+
+Agile
+
+Communication skills
+- show less
+Languages
+
+English
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Job type
+
+Full-time
+&nbsp;
+Location
+Toronto, ON•Hybrid work
+&nbsp;
+Benefits
+Pulled from the full job description
+Stock options
+RRSP match
+Flexible schedule
+&nbsp;
+Full job description
+Job Description:
+Here at Rakuten Kobo Inc. we offer a casual working start-up environment and a group of friendly and talented individuals. Our employees rank us highly in terms of commitment to work/life balance. We realize that for our people to be innovative, creative and passionate they need to feel valued and supported. We believe in rewarding all our employees with competitive salaries, performance based annual bonuses, stock options and training opportunities.
+
+If you’re looking for a company that inspires passion, personal, and professional growth – join Kobo and come help us on our mission of making reading lives better.
+The Role:
+Rakuten Kobo's eReader team is looking for an experienced C++ Software Developer with leadership aspirations to work on our range of eReader devices. You will be joining a software delivery team of ~15 to work on building and enhancing some of the top eReaders in the market. We are looking for someone who is eager to take on increasing responsibility and has the potential to grow into a Team Lead within ~6 months.
+Here are some of the things we do and strongly believe in:
+We follow an Agile development process that encourages trying new things and making suggestions to enable us to continuously improve
+We’re dedicated to crafting high-quality, peer-reviewed code, and we’re continuously working on growing our automated test suite to ensure reliability and efficiency
+Every member on the team has a voice and is encouraged to contribute to planning, designing, and decision making
+QA is embedded within our development teams is involved in projects from day one, promoting a collaborative approach to quality
+We host regular learning sessions on various engineering topics hosted by members of the team
+Responsibilities:
+As a member of an Agile development team:
+Design, implement, and test new functionality for Kobo eReader devices
+Propose and carry out refactoring within the codebase to improve design and quality
+Debug and fix defects found by QA and customers
+Review code for other developers on the team
+Estimate the effort for future work as an input to planning
+Collaborate within the eReader team on improvements to our processes and code base
+Share your knowledge to help grow other members on the team and in turn learn from other members on the team
+
+Requirements:
+Strong software design skills, including:
+Object-oriented design incorporating design principles and patterns
+Identifying and explaining trade-offs and rationale
+Converting final state designs into a sequence of smaller testable incremental steps
+Strong software development skills in C++11 (or newer), including:
+Reviewing code and providing feedback (with rationale) to improve code
+Following modern development best practices
+Experience developing graphical user interfaces in C++ using Qt or a similar library
+Experience with embedded development, preferably on Linux
+5+ years of experience as a developer in an Agile development environment
+Strong written and verbal communication skills in English
+Familiar with:
+Multi-threaded applications development
+Web technologies (JavaScript/CSS/HTML/ HTTP/etc.)
+
+Bonus points:
+Experience with GCC, ARM toolchains, and shell scripting
+Experience with writing and maintaining automated tests in C++, ideally including:
+Use of dependency injection and mocking frameworks
+Use of test frameworks such as Google Test
+User interface tests
+Experience with TDD
+Familiarity with the EPUB format/standard
+EInk screen experience
+Database experience with SQLite
+
+The Perks:
+Flexible hours and hybrid remote working environment
+Subsidized in-office lunches
+Full benefits starting from your first day
+Paid Volunteer days, unlimited sick days, and 3% RRSP matching
+Monthly commuting allowance for those who are hybrid
+Lifestyle spending account
+Talent and development training budget
+Free Kobo device + free weekly e-book or audiobook
+Weekly Kobo Tech University sessions
+Maternity/paternity leave top up
+Dog friendly office
+About Rakuten Kobo Inc.
+Owned by Tokyo-based Rakuten and headquartered in Toronto, Rakuten Kobo Inc. is one of the most advanced global ecommerce companies, with the world’s most innovative e-reading services offering more than 6 million eBooks and audiobooks to 30 million + customers in 190 countries. Kobo delivers the best digital reading experience through creative innovation, award-winning e-readers, and top-ranking mobile apps. Kobo is a part of the Rakuten group of companies.
+
+Rakuten Kobo Inc. is an equal opportunity employer. Accessibility accommodations for candidates with disabilities participating in the selection process are available on request. Any information received related to accommodation needs of applicants will be addressed confidentially.
+
+Rakuten Kobo would like to thank all applicants for their interest in this role however only qualified candidates will be shortlisted.
+Beware of fraudulent job offers claiming to be from Rakuten. Rakuten does not send unsolicited job offers or request money during the recruitment process. Learn more:
+https://rakutenemploymentalert.com/
+
+#RKIND
+
+====
+
+Software Developer (AI)- job post
+RouteThis
+4.0
+4.0 out of 5 stars
+Toronto, ON•Hybrid work
+Full-time
+RouteThis
+Toronto, ON•Hybrid work
+Profile insights
+Here’s how the job qualifications align with your profile.
+Skills
+
+iOS
+
+React
+
+Python
+
+Node.js
+
+JavaScript
+
+Google Cloud Platform
+
+AWS
+
+APIs
+
+AI
+
+Communication skills
+- show less
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Job type
+
+Full-time
+&nbsp;
+Location
+Toronto, ON•Hybrid work
+&nbsp;
+Full job description
+RouteThis is on a mission to revolutionize technical support. We build AI-powered solutions that help Internet Service Providers and Smart Home companies solve connectivity and WiFi problems—before the subscriber ever needs to call. Our customers already benefit from our SaaS solutions today and we aim to magnify that value by building agentic qualities into our solutions. As we pivot our platform to be AI-first, we’re looking for a new team member—someone early in their career, passionate about AI, and eager to learn by doing. If you've been exploring AI on your own time, hacking together side projects, or experimenting with LLMs for fun, we want to hear from you.
+What You'll Do
+Work alongside experienced AI engineers to build real, agentic AI systems that solve WiFi and connectivity problems for millions of users.
+Experiment with prompts, models, and tools to explore how LLMs can be applied to real-world support challenges.
+Prototype ideas quickly and help evaluate what works—and what doesn’t.
+Learn how to assess model correctness, safety, hallucination, and contextual relevance in practical applications.
+Participate in code reviews, design discussions, and agile development practices.
+Ask questions, contribute ideas, and grow into a developer who can ship production-grade AI features.
+What You Bring
+A recent graduate in Computer Science, Engineering, Math, or a related field—or equivalent self-driven experience.
+A strong curiosity about AI and a track record of exploring it independently (e.g., side projects, hackathons, open source, coursework).Hands-on experience using LLMs or AI tools via APIs like OpenAI or HuggingFace.
+Comfort with at least one modern programming language—Javascript and Python are ideal.
+A collaborative, humble, and growth-oriented mindset.
+Strong communication skills and a willingness to ask questions and take feedback.
+Bonus: exposure to web or mobile development, cloud services (AWS, GCP), or basic statistics and data analysis.
+Our Stack
+
+We use AWS (EKS, Lambda, Dynamo, RDS), AWS Connect, OpenAI, Snowflake, Node.js, Python, React, Android, and iOS. You don’t need to know it all—but you should be excited to learn and contribute.
+
+About RouteThis
+
+RouteThis is a SaaS company headquartered in Kitchener-Waterloo, transforming how ISPs and smart home brands handle support. Our AI-powered platform turns reactive support into proactive resolutions—making WiFi issues faster to solve and easier to prevent.
+
+We’re a team that values ownership, velocity, and customer obsession. We offer flexible work arrangements across Canada, competitive compensation, and a supportive environment to grow your career.
+
+If you’re excited by the opportunity to learn, build, and shape the future of AI-first support, apply now and show us what you’ve been working on!
+
+====
+
+Software Engineer (Python/Linux/Packaging)
+Gatineau, QC · 1 month ago · 4 people clicked apply
+Responses managed off LinkedIn
+
+
+Remote
+
+Full-time
+
+Apply
+
+Save
+Save Software Engineer (Python/Linux/Packaging) at Canonical
+Software Engineer (Python/Linux/Packaging)
+Canonical · Gatineau, QC (Remote)
+
+Apply
+
+Save
+Save Software Engineer (Python/Linux/Packaging) at Canonical
+Show more options
+
+About the job
+Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution.
+
+The company is founder-led, profitable, and growing.
+
+We are hiring talented Software Engineers with strong Python, Packaging and Linux skills and who want to have a positive impact on the day-to-day workflow of thousands of snap, rock and charm publishers. To be successful on this team you'll need to be interested in packaging formats, build systems and automation that can simplify the lives of developers and engineers trying to ship software to the widest possible audience.
+
+We design and maintain specialist Python tools to support the developer build and publication process. The team takes responsibility for tooling that builds snaps, charms and more recently, rocks.
+
+Snapcraft allows developers to deliver app updates to millions of Linux systems automatically, eliminating the long tail of supported releases and complex install instructions. Snapcraft enables thousands of applications from over a thousand developers, including well-recognised names like Spotify, Slack, and Microsoft.
+
+Likewise, Charmcraft enables collaboration between charmed operator developers, and publication on Charmhub, home of the Charmed Operator Collection. Charmed Operators enable developers to package software like databases, event queues, caches, observability tools, identity tools and more, right alongside the operations code that enables teams to integrate and operate that software at scale from Day 0 to Day 1,000, and beyond.
+
+And Rockcraft provides the means for container developers to build production-grade Ubuntu-based container images, regardless of their experience as a software developer. These container images are called Rocks and can be found in various popular container registries, like Docker Hub, offering an opinionated and consistent design that focus on security while providing an homogeneous user experience across all rocks.
+
+What we are looking for in you
+
+You have expertise in Python.
+You have a strong understanding of the makeup of a modern GNU/Linux distribution.
+You have a good understanding of build systems and toolchains, including for cross-compilation.
+Experience working with container technology, such as Docker, Kubernetes and LXD.
+Use your familiarity with languages, toolchains, frameworks, integrations, and CI systems to extend the snap build ecosystem
+Work with external open source and commercial projects to understand how we can better serve community needs.
+
+What we offer you
+
+Your base pay will depend on various factors including your geographical location, level of experience, knowledge and skills. In addition to the benefits above, certain roles are also eligible for additional benefits and rewards including annual bonuses and sales incentives based on revenue or utilisation. Our compensation philosophy is to ensure equity right across our global workforce.
+
+In addition to a competitive base pay, we provide all team members with additional benefits, which reflect our values and ideals. Please note that additional benefits may apply depending on the work location and, for more information on these, you can ask in the later stages of the recruitment process.
+
+Fully remote working environment - we've been working remotely since 2004!
+Personal learning and development budget of 2,000USD per annum
+Annual compensation review
+Recognition rewards
+Annual holiday leave
+Parental Leave
+Employee Assistance Programme
+Opportunity to travel to new locations to meet colleagues at 'sprints'
+Priority Pass for travel and travel upgrades for long haul company events
+
+About Canonical
+
+Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open-source projects and the platform for AI, IoT, and the cloud, we are changing the world of software. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence; in order to succeed, we need to be the best at what we do. Most colleagues at Canonical have worked from home since our inception in 2004. Working here is a step into the future and will challenge you to think differently, work smarter, learn new skills, and raise your game.
+
+Canonical is an equal opportunity employer
+
+We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.
+
+====
+
+Software Engineer Platform Development 
+Ottawa, ON · Reposted 1 week ago · 84 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+
+
+CA$113.5K/yr - CA$161.4K/yr
+
+ On-site
+Matches your job preferences, workplace type is On-site.
+
+Full-time
+
+Apply
+
+Save
+Save Software Engineer Platform Development  at Cisco
+
+
+
+Report Job
+Software Engineer Platform Development
+Cisco · Ottawa, ON (On-site)
+
+Apply
+
+Save
+Save Software Engineer Platform Development  at Cisco
+Show more options
+About the job
+Accepting applications until September 5Meet the Team
+
+This is the Enterprise Access Switching Group at Cisco. Cisco is the industry leader in enterprise networking with a proven track record in building innovative wired and wireless solutions. Enterprise switching forms the backbone of an organization's wired network, ensuring reliable, secure, and efficient connectivity between all devices and services.
+
+Who You Are
+
+As a Software Engineer on the Platform Development team you will be part of world-class software engineering team that works on various cutting edge technologies in switching. Opportunity to work with leading edge networking technologies in the areas of high speed, high performance switches for Access/Campus market segments.
+
+Extremely motivated, passionate about learning and contributing to the team and the business with "can do" attitude. 
+Strong design/programming ethic. Knowledge of designing large-scale systems in C/C++ environments is preferred. 
+Commitment to Quality: Ability to ensure and commit to a higher standard of quality than usual in the face of time to market pressures. 
+Strong OS fundamentals and networking concepts. 
+In-depth experience designing networking systems with L2, L3 and VXLAN (Overlay) technologies
+Experience with peripheral interfaces (USB, I2C, SPI, high-speed serial interfaces). 
+
+Responsibilities
+
+Participate on a project team of engineers involved in the development of software for our next generation Campus switching architectures. Define, Architect, design, and deliver new software and features for the Campus switching platforms
+Day to day activities will involve creating new features, understanding features in a competitive product and proposing solutions that work for our platform, writing functional and design specifications, programming, unit and integration testing your code, helping review specifications and code for other software engineers in the team, helping documentation team with the configuration aspects of your feature. 
+
+Who You Are
+
+Minimum Qualifications:
+
+ MSEE/CS combined with 3-4 years of related experience or BSEE/CS combined with 5+ years of experience
+Experience in writing software in C/ C++. 
+Excellent Layer 2 and Layer 3 knowledge/ hands-on experience. Good understanding of various networking protocols and standards. 
+Strong passion and experience in troubleshooting, debugging complex systems and possess excellent problem-solving techniques
+Execute tests, track and log issues and drive them till resolution with verification of bug fixes
+
+Desired Skills:
+
+Knowledge of scripting in Python
+Knowledge of Device Drivers, Linux OS, and embedded systems
+Must be able to handle multiple tasks at once and work independently with minimal managerial oversight. 
+Have experience in customer deployments
+Be open to continuous learning and committed to on-going self-improvement. 
+Initiate and participate in organizational efforts to improve overall group productivity and test effectiveness. 
+Contribute to overall test strategies
+
+#WeAreCisco 
+
+#WeAreCisco where every individual brings their unique skills and perspectives together to pursue our purpose of powering an inclusive future for all.
+
+Our passion is connection—we celebrate our employees’ diverse set of backgrounds and focus on unlocking potential. Cisconians often experience one company, many careers where learning and development are encouraged and supported at every stage. Our technology, tools, and culture pioneered hybrid work trends, allowing all to not only give their best, but be their best.
+
+We understand our outstanding opportunity to bring communities together and at the heart of that is our people. One-third of Cisconians collaborate in our 30 employee resource organizations, called Inclusive Communities, to connect, foster belonging, learn to be informed allies, and make a difference. Dedicated paid time off to volunteer—80 hours each year—allows us to give back to causes we are passionate about, and nearly 86% do!
+
+Our purpose, driven by our people, is what makes us the worldwide leader in technology that powers the internet. Helping our customers reimagine their applications, secure their enterprise, transform their infrastructure, and meet their sustainability goals is what we do best. We ensure that every step we take is a step towards a more inclusive future for all. Take your next step and be you, with us!
+
+====
+
+Software Engineer 
+Kanata, ON · Reposted 2 weeks ago · Over 100 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+
+
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
+
+Full-time
+
+Apply
+
+Save
+Save Software Engineer  at Wind River
+Software Engineer
+Wind River · Kanata, ON (Hybrid)
+
+Apply
+
+Save
+Save Software Engineer  at Wind River
+Show more options
+About the job
+Description
+
+Position at Wind River
+
+Location: Ottawa, CN
+
+Citizenship Clearance Required
+
+Why Choose Wind River?
+
+Wind River’s impact spans critical infrastructure domains such as telecommunications, including 5G; industrial (automation, sustainable energy, robotics, mining), connected healthcare and medical devices, automotive (connected and self-driving vehicles), and aerospace & defense. We were recognized by VDC Research as #1 in Edge Compute OS Platforms. Wind River regularly wins industry recognitions for excellence in IoT security, cloud and edge computing, as well as 8 consecutive years as a “Top Work Place”. If you’re passionate about amplifying your impact on the world, in a caring, respectful culture with a growth mindset, come join us and help lead the way into the future of the intelligent edge! 
+
+Within the Wind River Operating System team, we work on projects that deliver mission critical, robust, and deterministic Real Time Operation Systems suitable for a wide variety of mission critical applications including the aerospace and automotive industry. We are looking for experienced and high-performing individuals that can learn and contribute to these technologies.
+
+Who You Will Work With
+
+The successful candidate will join a highly skilled "Helix Virtualization Platform" development team delivering mission critical Real-Time Operating System for avionics and automotive applications.
+
+YOUR ROLE
+
+As an Software Engineer on our team, you’ll be responsible for the development and testing of Operating system and Hypervisor features for our next generation Helix Virtualization platform. As a team member, your contributions encompass software design, coding and testing of new functionality or upgrading existing functionality.
+
+In Your Daily Job You Will
+
+Helping develop and test SW modules for VxWorks as well as HVP helping Wind River to grow in its role in new embedded and enterprise market segments.
+Use Gen AI for software development and testing.
+Take the initiative to improve features and processes.
+Contribute ideas for product improvements and iterations.
+Collaborate effectively with global software engineering teams.
+
+How You Will Contribute
+
+Key skills and competencies for succeeding in this role are:
+
+Pursuing BE/BTech or ME/MTech degree in Computer Science, Electronics Engineering, or equivalent
+Good Knowledge of Operating systems, Virtual Machines and Hypervisors.
+Strong C / C++ & Assembly language
+Good Debugging skills using GDB or equivalent tools.
+Experience in scripting language e.g., Python preferred
+Experience in using emulators like QEMU preferred
+Linux Kernel Driver development preferred
+
+Benefits
+
+Flexible home office! We offer the flexibility of a hybrid work schedule 
+Named Top Workplace for the 8th year in a row 
+Wind River’s commitment to DEIB 
+100% Employee covered Medical, Dental, and Vision insurance* 
+Flexible Time Off policy* + 12 observed Holidays 
+401K with company match 
+Health Savings Account (HSA) and Flexible Spending Account (FSA) 
+Wellness Benefits through Unmind 
+
+
+
+OUR COMMITMENT TO DIVERSITY
+
+Wind River is committed to providing employees with a work environment free of discrimination and harassment. All employment decisions are based on business needs, job requirements, and individual qualifications, without regard to race, color, religion or belief, national, social, or ethnic origin, age, physical, mental, or sensory disability, sexual orientation, gender identity and/or expression, marital, civil union or domestic partnership status, past or present military service, HIV status, family medical history or genetic information, family or parental status including pregnancy, or any other status protected by the laws or regulations in the locations where we operate. Wind River will not tolerate discrimination or harassment based on these characteristics.
+
+To learn more, visit Wind River at www.windriver.com.
+
+Applicant Privacy Notice
+
+Your privacy is of the utmost importance to us. At Wind River, we strictly adhere to all applicable data privacy laws. Please review Wind River's Applicant Privacy Notice, which can be found here
+
+Security Clearance Requirements
+
+Successful candidates must engage in a security clearance process in regards to their citizenship in order to perform fundamental job duties, as per applicable law. In particular, candidates with certain citizenship may not be able to perform such fundamental job duties. Currently, this includes citizens of the following countries: Belarus; Burma; China; Cuba; Iran; North Korea; Syria; Venezuela; Afghanistan; Cambodia; Central African Republic; Cyprus; Democratic Republic of Congo; Ethiopia; Eritrea; Haiti; Iraq; Lebanon; Libya; Russia; Somalia; South Sudan; Sudan; Zimbabwe. The security clearance process may take a significant amount of time to complete, and any offer of employment will be contingent on the candidate's legal ability to perform the fundamental job duties. Wind River is committed to meeting its obligations to candidates under applicable human rights law and privacy law in this regard.
+
+====
+
+Software Engineer - Data Communication
+Ottawa, ON · 3 months ago · Over 100 people clicked apply
+Responses managed off LinkedIn
+
+
+ On-site
+Matches your job preferences, workplace type is On-site.
+
+Full-time
+
+Apply
+
+Save
+Save Software Engineer - Data Communication at Huawei Canada
+Software Engineer - Data Communication
+Huawei Canada · Ottawa, ON (On-site)
+
+Apply
+
+Save
+Save Software Engineer - Data Communication at Huawei Canada
+Show more options
+About the job
+Huawei Canada has an immediate permanent opening for a Software Engineer.
+
+About the team:
+
+The YunShan Software Lab pioneers advanced software technologies and architectures that address the most pressing pain points, complex issues, and challenges in data communication device software. This lab is at the forefront of innovation and tackles some of the most challenging and exciting problems in data communication software.
+
+About the job:
+
+Explore and leverage advanced technologies to build the next-generation elastic, composable and service-oriented software architecture for Huawei’s data communication products (switch/router/IOT).
+Solve technical challenges in the areas, including but not limited to, micro-kernel OS, compiler techniques, programming language and runtime, NoSql DB, concurrency control, high performance execution, trusted execution, high availability and virtualization.
+Optimize runtime performance and resource consumption, improve development process and software quality.
+Help migrate legacy code to new software architecture.
+Design, code, test and collaborate with others.
+
+Job requirements
+
+About the ideal candidate:
+
+Bachelor’s degree or above in Computer Science, Electrical Engineering or related field. 
+Working knowledge of C, C++ and Linux.
+Experience in embedded software development.
+Familiarity with all the stages of software life cycle, development tools and build process.
+Understanding of operating system fundamentals, CPU architecture and data networking.
+Proficiency in other programming languages (Java/Go/Python/Lua/Shell/etc…) is an asset.
+Strong ability to research complex topics, distill knowledge into concrete solutions.
+Creative analytical skills and excellent troubleshooting/debugging skills.
+
+====
+
+Software Engineer - Full Stack 
+Ottawa, ON · Reposted 18 hours ago · Over 100 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+
+
+Remote
+
+Full-time
+
+Apply
+
+Save
+Save Software Engineer - Full Stack  at Veeva Systems
+Software Engineer - Full Stack
+Veeva Systems · Ottawa, ON (Remote)
+
+Apply
+
+Save
+Save Software Engineer - Full Stack  at Veeva Systems
+Show more options
+About the job
+Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $2B in revenue in our last fiscal year with extensive growth potential ahead.
+
+At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company – we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors.
+
+As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment.
+
+Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities.
+
+The Role
+
+Our teams are hiring multiple talented Full-Stack Software Engineers to build innovative products in Life Sciences. You'll work with the latest front-end and back-end technologies as we tackle some of the biggest challenges facing the world today.
+
+We are looking for engineers that would thrive in a fast-paced, startup environment while having the stability of a successful, profitable company. You have extensive experience in Java and Javascript applications and the latest open source technologies. You’ve ideally worked in enterprise software development or for a high-growth technology company.
+
+What You'll Do
+
+Participate in all aspects of the SDLC
+Collaborate with product managers, other engineers, and domain experts to design and develop cutting-edge applications in life science
+Collaborate with Quality Assurance engineers to ensure accurate and comprehensive testing coverage
+Contribute to troubleshooting and technical support of the product
+
+Requirements
+
+2+ years of experience in software product development
+Experience with Javascript front-end libraries such as React, Angular, or Vue
+Experience with backend development in Java
+Experience with CSS abstraction layers (e.g. SASS or JSS)
+Experience with RDBMS such as MySQL, Oracle, or MS SQL Server
+Strong communication skills
+EST and CST time zones are preferred
+BS in engineering/computer science or equivalent
+We are looking for strong mentors with a proven record of making your team better
+
+Nice to Have
+
+Previous experience working in an agile environment
+Experience with the Spring framework
+Experience with ES6
+Experience with Software-as-a-Service (SaaS) product development
+Experience with content management products and technologies
+
+Learn More
+
+Engineer Perspective: 3 Reasons to Consider Veeva
+Engineering at Veeva
+
+Perks & Benefits
+
+Medical, dental, vision, and basic life insurance
+PTO and company-paid holidays
+Retirement programs
+1% charitable giving program
+
+Compensation
+
+Base pay: $85,000 - $225,000 
+The salary range listed here has been provided to comply with local regulations and represents a potential base salary range for this role. Please note that actual salaries may vary within the range above or below, depending on experience and location. We look at compensation for each individual and base our offer on your unique qualifications, experience, and expected contributions. This position may also be eligible for other types of compensation in addition to base salary, such as variable bonus and/or stock bonus.
+
+Veeva’s headquarters is located in the San Francisco Bay Area with offices in more than 15 countries around the world.
+
+Veeva is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, sex, sexual orientation, gender identity or expression, religion, national origin or ancestry, age, disability, marital status, pregnancy, protected veteran status, protected genetic information, political affiliation, or any other characteristics protected by local laws, regulations, or ordinances. If you need assistance or accommodation due to a disability or special need when applying for a role or in our recruitment process, please contact us at talent_accommodations@veeva.com.
+
+====
+
+Software Engineering Developers - Multiple Levels
+Ottawa, ON · 1 month ago · Over 100 people clicked apply
+Responses managed off LinkedIn
+
+
+ On-site
+Matches your job preferences, workplace type is On-site.
+
+Full-time
+
+Apply
+
+Save
+Save Software Engineering Developers - Multiple Levels at General Dynamics Mission Systems–Canada
+Software Engineering Developers - Multiple Levels
+General Dynamics Mission Systems–Canada · Ottawa, ON (On-site)
+
+Apply
+
+Save
+Save Software Engineering Developers - Multiple Levels at General Dynamics Mission Systems–Canada
+Show more options
+About the job
+At General Dynamics Mission Systems–Canada, our focus extends beyond engineering technology solutions—we are dedicated to cultivating careers. If you seek a purpose-driven career solving some of the world’s most critical problems, alongside some of the brightest engineering minds, your application is welcome. Join a community where your unique perspective propels innovation.
+
+Why Join Us?
+
+Flexible Work Environment: We have On-site and Hybrid positions, this is often dependent on the nature of your role. We offer a variety of options for your work schedule which includes compressed work week options, flexible start times and shut down periods. 
+Professional Development: We offer a number of resources and support to help develop your professional toolkit! You should anticipate regular progress reviews as well as access to educational assistance, professional designations and certification support, training and more! 
+Total Rewards: Consider it covered—health, dental, and beyond. Early access to a pension plan with various perks to acknowledge your contributions to the organization. 
+
+Job Description
+
+General Dynamics Mission Systems-Canada is hiring for ten new Software Engineering positions within our Air & Naval (A&N) division. These positions range from Junior to Senior and can be based out of Ottawa or Halifax.
+
+The A&N team delivers advanced systems integration for defense applications across air and naval platforms. Our software solutions support mission-critical functions, including data management, acoustic and sonar processing, and simulation and training environments. These systems contribute directly to improving operational effectiveness, situational awareness, and decision-making capabilities for defense partners around the world.
+
+Specific responsibilities will vary depending on the level of the position and project, but may include:
+
+Performing software requirements analysis, design, development, testing, and integration
+Writing and reviewing software design documentation, test plans, and procedures
+Developing high-quality, maintainable code while adhering to project and coding standards
+Participating in code reviews and contributing to continuous improvement initiatives
+Troubleshooting and resolving software issues, including root cause analysis and verification of fixes
+Collaborating with cross-functional teams to support system design, integration, and validation
+Providing technical support to internal stakeholders throughout the development lifecycle
+Presenting technical content at design reviews and team meetings
+For senior candidates: leading software development tasks and mentoring junior team members 
+
+Qualifications
+
+Bachelor's degree in Engineering, Computer Science, or a related technical/scientific discipline
+Relevant experience with software development projects
+Proficiency in one or more modern programming languages (e.g., Java, C/C++, Ada)
+Experience with Agile software development, object-oriented design tools, and UML
+Familiarity with Linux as a host environment and software version control systems
+Strong communication, problem-solving, and analysis skills
+Ability to work effectively in a team environment and independently with minimal supervision
+Positive approach to learning, strong work ethic, and enthusiasm for taking ownership of work
+
+It is a requirement that General Dynamics Mission Systems-Canada be registered with the Canadian Controlled Goods program and that all of its workforce be security assessed. Successful applicants must meet all applicable security requirements, including but not limited to the ability to obtain and maintain a Canadian government security clearance. Applicants may be required to meet additional security requirements in order to gain access to technical data, classified areas or information that is subject to international regulations. You must be eligible to work in Canada.
+
+Additional Information
+
+We believe the unique contributions of each of our colleagues are key in our ability to drive innovation. By fostering a culture of belonging, encouraging idea sharing at all levels, and reinforcing the very real impact of what we do, we offer an environment where everyone can take pride in their work. We respect diverse opinions, and value the lived experiences each and every one of us bring to our workplace. If you require accommodation during any stage of the application process, please contact Human Resources via recruitment@gd-ms.ca.
+
+====
+
+Software Engineer, UI 
+Ottawa, ON · Reposted 1 week ago · Over 100 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+
+
+Remote
+
+Full-time
+
+Apply
+
+Save
+Save Software Engineer, UI  at Riverbed Technology
+Software Engineer, UI
+Riverbed Technology · Ottawa, ON (Remote)
+
+Apply
+
+Save
+Save Software Engineer, UI  at Riverbed Technology
+Show more options
+About the job
+Riverbed, the leader in AI observability, helps organizations optimize their user’s experiences by leveraging AI automation for the prevention, identification, and resolution of IT issues. With over 20 years of experience in data collection and AI and machine learning, Riverbed’s open and AI-powered observability platform and solutions optimize digital experiences and greatly improves IT efficiency. Riverbed also offers industry-leading Acceleration solutions that provide fast, agile, secure acceleration of any app, over any network, to users anywhere. Together with our thousands of market-leading customers globally – including 95% of the FORTUNE 100 – we are empowering next-generation digital experiences.
+
+ Position 
+
+ Job Title:  Software Engineer, UI
+
+ Location Preference:  Ontario, Canada
+
+We are seeking an enthusiastic, high-energy User Interface Software Engineer to join the team and help us build the next generation of SaaS based Network Performance Monitoring products.
+
+What You Will Do
+
+ Develop and test new/existing features in the Riverbed SaaS UI 
+ Design new features and lead technical discussions on those features 
+ Participate in UX/PM discussions on features you are developing 
+ Make the product better by bringing innovative ideas and insights to the team 
+
+What Makes You An Ideal Candidate
+
+ BS/MS degree in a technical field 
+ 4+ years of experience developing commercial software 
+ Experience with enterprise-class software development 
+ Experience with front end libraries and Frameworks (React Strongly Preferred) 
+ Experience with HTML, Javascript and CSS 
+ Cloud development experience in AWS and/or Azure 
+ Experience with Agile SDLC or familiar with Scrum and/or Kanban. 
+ Excellent analytical, troubleshooting and problem-solving skills 
+ Knowledge of basic networking concepts (routing, switching) and protocols (TCP, UDP, SNMP, NetFlow, IPFIX) 
+
+What We Offer
+
+Our employee benefits including flexible workplace policies, employee resource groups, learning and development resources, career progression pathways, and community engagement initiatives are some of the reasons why we have had great success in bringing in new talent. In addition, our global employee wellness programs are crafted to support the physical, emotional, and financial well-being of our employees.
+
+Benefits & Perks vary by Country.
+
+About Riverbed
+
+With a 20-year history of innovation, Riverbed is agile, yet proven, and we are disrupting the market with differentiated solutions that enable our customers to deliver secure, seamless digital experiences and accelerate enterprise performance While we are a ‘customer-first’ company, we are all about our people with a shared commitment to creating a global impact. We bring our best selves to work and pursue excellence, trust, and respect for one another. We welcome and encourage transparency and open communication throughout the company. We strive to be an inclusive, fair, and enjoyable workplace for our people globally and care about their wellbeing. We are committed to our people, partners, and customers while supporting the communities where we work and live. It’s the Power of WE that binds us together.
+
+Riverbed is an equal employment opportunity/Affirmative Action (EEO/AA) employer and provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, gender, sexual orientation, gender identity or expression, national origin, age, physical disability (including HIV and AIDS), mental disability, medical condition, pregnancy or child birth (including breast feeding), sexual orientation, genetics, genetic information, marital status, veteran status or any other basis protected by and in accordance with applicable federal, state and local laws.
+
+Check us out on:
+
+www.riverbed.com
+
+@LifeAtRiverbed
+
+====
+
+Software Engineer - Data Path Networking 
+Ottawa, ON · Reposted 2 weeks ago · Over 100 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+
+
+CA$113.5K/yr - CA$161.4K/yr
+
+ On-site
+Matches your job preferences, workplace type is On-site.
+
+Full-time
+
+Apply
+
+Save
+Save Software Engineer - Data Path Networking  at Cisco
+Software Engineer - Data Path Networking
+Cisco · Ottawa, ON (On-site)
+
+Apply
+
+Save
+Save Software Engineer - Data Path Networking  at Cisco
+Show more options
+About the job
+Join Cisco's team of seasoned engineers working on Switching technology, the preferred choice for mission-critical networks in large enterprises. Collaborate with a vibrant technical community to develop some of the world’s most widely deployed Enterprise Switches.
+
+Your Impact
+
+As a Software Engineer, you will have the opportunity to:
+
+Develop and integrate products used by leading global enterprises. 
+Architect, design, and develop evolving enterprise switches. 
+Mentor junior colleagues and contribute to their growth. 
+Work with cross-functional teams in an inclusive and agile environment. 
+Engage with cutting-edge technologies and platforms. 
+
+Minimum Qualifications
+
+Bachelor’s degree+ 5 years of related experience, or Masters + 3 years, or PhD + 1 year experience in Computer Science, Software Engineering, or technical equivalent. 
+Experience in writing software in C/C++
+Experience with real-time OS (e.g., VxWorks, Cisco IOS, Linux). 
+Knowledge of TCP/IP fundamentals, multicast protocols, and network synchronization. 
+
+Preferred Qualifications:
+
+Knowledge of network security protocols (IEEE 802.1x, IPSec, etc.). 
+Experience with QoS, Netflow, and Openflow, L3 protocols
+Understanding of bridging and routing fundamentals. 
+Hands-on experience with ASIC data plane features. 
+Familiarity with Unix/Linux development tools and Linux virtualization. 
+
+#WeAreCisco
+
+#WeAreCisco where every individual brings their unique skills and perspectives together to pursue our purpose of powering an inclusive future for all.
+
+Our passion is connection—we celebrate our employees’ diverse set of backgrounds and focus on unlocking potential. Cisconians often experience one company, many careers where learning and development are encouraged and supported at every stage. Our technology, tools, and culture pioneered hybrid work trends, allowing all to not only give their best, but be their best.
+
+We understand our outstanding opportunity to bring communities together and at the heart of that is our people. One-third of Cisconians collaborate in our 30 employee resource organizations, called Inclusive Communities, to connect, foster belonging, learn to be informed allies, and make a difference. Dedicated paid time off to volunteer—80 hours each year—allows us to give back to causes we are passionate about, and nearly 86% do!
+
+Our purpose, driven by our people, is what makes us the worldwide leader in technology that powers the internet. Helping our customers reimagine their applications, secure their enterprise, transform their infrastructure, and meet their sustainability goals is what we do best. We ensure that every step we take is a step towards a more inclusive future for all. Take your next step and be you, with us!
+
+====
+
+Forward Deployed Software Engineer 
+Ottawa, ON · Reposted 5 months ago · Over 100 people clicked apply
+Responses managed off LinkedIn
+
+
+ On-site
+Matches your job preferences, workplace type is On-site.
+
+Full-time
+
+Apply
+
+Save
+Save Forward Deployed Software Engineer  at Palantir Technologies
+Forward Deployed Software Engineer
+Palantir Technologies · Ottawa, ON (On-site)
+
+Apply
+
+Save
+Save Forward Deployed Software Engineer  at Palantir Technologies
+Show more options
+About the job
+A World-Changing Company
+
+Palantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more.
+
+The Role
+
+Forward Deployed Software Engineers (FDSEs) work directly with customers to quickly understand their greatest problems and design and implement solutions to use data against them. Our customers rely on Palantir’s platforms for some of their most critical operations, and projects often start with an open ended question like “Why are we delaying so many flights?” or “How can we better identify instances of money laundering?” As an FDSE, you’ll apply your problem solving ability, creativity, and technical skills to help organizations use their data to drive a real impact in the world. You’ll have the opportunity to gain rare insight into and contribute to some of the world’s most important industries and institutions.
+
+As an FDSE, your responsibilities look similar to those of a startup CTO: you’ll work in small teams with minimal supervision and own end-to-end execution of high stakes projects. Your day might span discussing architecture with fellow engineers, wrangling massive-scale data, coding a custom web app, speaking with customer executives, or establishing strategy for your team.
+
+Whether you aspire to be an entrepreneur or an engineering leader, we believe Palantir is the best place — with the best colleagues — to learn how. You’ll learn how to unpack a problem and understand the costs and consequences of its solution. You’ll learn new technologies and languages, and even develop them yourself. You’ll work autonomously and make decisions independently, within a community that will support and challenge you as you grow and develop.
+
+Core Responsibilities
+
+Impact: We take on meaningful and challenging projects that change the world for the better.
+Ownership: We see projects through from beginning to end, working through any obstacles we may encounter.
+Collaboration: We work internally with people from a variety of backgrounds — such as other FDSEs, product teams, and Deployment Strategists. We also work externally with our customers, often on site, to understand and solve their problems.
+Trust: We trust each other to effectively manage time and priorities and give people the space to think for themselves.
+Growth: We encourage ourselves and our peers to seek new challenges and opportunities for growth, as well as find new ways to innovate and share knowledge.
+Learning: We often face entirely novel problems where we need to pick up a lot of new knowledge and learn how to use it to make progress. We believe experiential learning is one of the best teachers.
+
+What We Value
+
+Strong engineering background, preferred in fields such as Computer Science, Mathematics, Software Engineering, Physics, and Data Science.
+A highly analytical mindset and eagerness to solve technical problems with data structures, storage systems, cloud infrastructure, front-end frameworks, and other technical tools.
+Experience or interest in working with and using large scale data to solve valuable business problems.
+Strong coder with demonstrated proficiency in programming languages such as Python, Java, C++, TypeScript/JavaScript, or similar.
+Demonstrated ability to collaborate effectively in teams of technical and non-technical individuals, and comfortable working in a rapidly changing environment with dynamic objectives and iteration with users.
+Ability to continuously learn, work independently, and make decisions with minimal supervision.
+Willingness and interest to travel as needed to client sites. Ability to travel 25-50% preferred, but may vary by team and location.
+
+What We Require
+
+Security clearance or the ability to obtain a clearance 
+
+ Life at Palantir 
+
+We want every Palantirian to achieve their best outcomes, that’s why we celebrate individuals’ strengths, skills, and interests, from your first interview to your longterm growth, rather than rely on traditional career ladders. Paying attention to the needs of our community enables us to optimize our opportunities to grow and helps ensure many pathways to success at Palantir. Promoting health and well-being across all areas of Palantirians’ lives is just one of the ways we’re investing in our community. Learn more at Life at Palantir and note that our offerings may vary by region.
+
+In keeping consistent with Palantir’s values and culture, we believe employees are “better together” and in-person work affords the opportunity for more creative outcomes. Therefore, we encourage employees to work from our offices to foster connectivity and innovation. Many teams do offer hybrid options (WFH a day or two a week), allowing our employees to strike the right trade-off for their personal productivity. Based on business need, there are a few roles that allow for “Remote” work on an exceptional basis. If you are applying for one of these roles, you must work from the city and or country in which you are employed. If the posting is specified as Onsite, you are required to work from an office.
+
+If you want to empower the world's most important institutions, you belong here. Palantir values excellence regardless of background. We are committed to making the application and hiring process accessible to everyone and will provide a reasonable accommodation for those living with a disability. If you need an accommodation for the application or hiring process, please reach out and let us know how we can help.
+
+====
+
+Software Developer 
+Ottawa, ON · Reposted 2 days ago · Over 100 applicants
+Promoted by hirer · Actively reviewing applicants
+
+
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
+
+Full-time
+
+Easy Apply
+
+Save
+Save Software Developer  at Solace
+Software Developer
+Solace · Ottawa, ON (Hybrid)
+
+Easy Apply
+
+Save
+Save Software Developer  at Solace
+Show more options
+About the job
+Solace helps companies connect and integrate all of their assets through the power of event-driven architecture. Our technology makes it easy to unlock data silos and capture events occurring across large enterprises; stream information about those events everywhere it needs to be in real-time; and give the apps, AI agents and people who receive it the power to immediately react with decisive actions and smart decisions.
+
+Many of the world’s biggest companies trust Solace to modernize their IT infrastructure by embracing trends like AI, cloud and IoT so they can create awesome experiences for their customers, partners, and employees.
+
+So, the next time you drive a car, order furniture online, fly in a plane, check your bank balance on your phone, your positive experience could be a direct result of our technology—and your hard work!
+
+Overview
+
+This position is for Software Developer. In this role you will be a key contributor working on the Solace Agent Mesh: an event-driven Integration and Orchestration Platform for Agentic AI that securely connects, orchestrates, and scales AI agents in real-time. You will take an important role in blending advanced AI technologies with our core products as well as our internal tooling. Your expertise will help us create smarter, more intuitive systems that redefine user interaction and operational efficiency. You will collaborate closely with various teams, contributing technical solutions and innovative ideas that push the boundaries of what is possible.
+
+Are You Someone Who
+
+Has a passion for building end-to-end applications spanning both frontend React interfaces and backend API services?
+Has curiosity about AI and Agentic AI with interest in Large Language Models (LLMs), multi-agent systems, and AI orchestration patterns?
+Thrives on solving integration challenges across the full technology stack?
+Has experience with both user interface development and backend service architecture?
+Enjoys participating in technical discussions and learning from experienced team members?
+Is detail-oriented and committed to delivering high-quality software across frontend and backend?
+Is humble, honest and open?
+
+What You'll Do
+
+Full-stack Development: Build complete features spanning React frontend components and backend API endpoints for the Solace Agent Mesh
+Design and Develop: Create responsive user interfaces and robust backend services that communicate with the Solace Platform
+Full Lifecycle Development: Participate in requirements definition, software design, implementation, testing, bug fixing, and deployments of new products/solutions using agile software development practices
+Collaborate Cross-Functionally: Work closely with teams across the organization, contributing to features that span multiple system components
+Code Quality: Write clean, maintainable code following established patterns and contributing to code reviews
+Quality Assurance & Testing: Develop and maintain automated tests for both frontend components and backend services
+Problem Solving: Debug and resolve issues across the entire application stack
+Technical Documentation: Contribute to documentation for APIs, components, and development processes
+
+What You Bring
+
+3-5 years of professional experience in software development with exposure to both frontend and backend technologies
+Experience developing React applications with JavaScript/TypeScript and modern frontend tooling
+Experience building backend services using Python and Java SpringBoot with RESTful API design
+Understanding of database technologies (SQL and/or NoSQL) and data modeling concepts
+Familiarity with testing frameworks and writing automated tests for web applications
+Understanding of web technologies, HTTP protocols, and client-server architecture
+A motivated individual eager to learn new technologies and grow technical skills
+A team player who can collaborate effectively within cross-functional teams
+Ability to communicate technical concepts clearly and concisely to team members
+Experience with cloud platforms and containerization concepts
+Experience with modern development tools and build processes
+Experience using AI technologies and coding-assisted tools such as GitHub Co-pilot, Cline, Claude Code, Aider and Ro
+
+Desirable Skills
+
+Exposure to AI/ML concepts and interest in building intelligent user interfaces
+Experience with real-time web technologies (WebSockets, Server-Sent Events)
+Understanding of event-driven architecture and messaging systems
+Familiarity with microservices architecture and distributed systems concepts
+Experience with CI/CD pipelines and DevOps practices
+Knowledge of container technologies such as Docker and basic Kubernetes concepts
+
+Why You’ll Want to Join Us at Solace
+
+We have an awesome team! You’ll get to work with some of the smartest individuals in the business.
+We believe in work-life balance, and that it’s important to love what you do.
+We have adopted a hybrid work model to create an inclusive environment for everyone.
+We live by our values every day: craftsmanship, trust, courage, freedom, momentum, humility, and human experience. 
+Our training programs are top-notch.
+We like to brag about our stellar customer lineup!
+We are social – we like to keep things simple and fun!
+We are one of the top-ranked employers on Glassdoor.
+We have a sense of humour and make cool videos on cool topics like MITT and this!
+
+We understand that experience takes on various shapes and sizes. Not sure you meet all the requirements? We still want to hear from you! Your unique experience could be exactly what we are looking for.
+
+At Solace, we believe that diversity and inclusion drive innovation and growth, both in business and in life. We strive to create an enriching and safe workplace where you can be who you are. If you want to do the best work of your career and feel supported every step of the way, we encourage you to join us!
+
+Accommodations are available upon request for anyone taking part in the hiring process. Let us know how we can help! We thank all candidates for their interest, however, only those selected to continue in the selection process will be contacted.
+
+====
+
+SOFTWARE DEVELOPER
+Ottawa, ON · 2 weeks ago · 16 people clicked apply
+Responses managed off LinkedIn
+
+
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
+
+Full-time
+
+Apply
+
+Save
+Save SOFTWARE DEVELOPER at High Tech Genesis
+SOFTWARE DEVELOPER
+High Tech Genesis · Ottawa, ON (Hybrid)
+
+Apply
+
+Save
+Save SOFTWARE DEVELOPER at High Tech Genesis
+Show more options
+About the job
+WE'RE HIRING!
+
+At HTG, you’ll push boundaries with the latest tech and collaborate with a team that loves what they do. Be part of a design services company that is amongst the companies that lead the world in technology and innovation.
+
+Your next chapter starts here. 
+
+Your responsibilities include:
+
+Design, develop, and maintain scalable software solutions using Go and React or Angular.
+Collaborate with cross-functional teams to deliver features that ensure performance, scalability, and maintainability.
+Contribute to the evolution of the codebase structure, improving processes to shorten the developer feedback loop.
+Work closely with Site Reliability Engineering to ensure the scalability and availability of applications.
+Troubleshoot and resolve issues, coordinating remediation efforts across product teams.
+Drive operational excellence by influencing and implementing best practices.
+5+ years of software development experience.
+Strong proficiency in Go.
+Experience with React or Angular (TypeScript, JavaScript).
+Experience with Linux and open-source software.
+Strong scripting knowledge using Shell, Groovy, Ruby, and/or Python.
+Experience with distributed version control systems such as Git, GitLab, Gerrit, and/or GitHub.
+Experience with CI/CD tools such as Jenkins, GitLab, and/or GitHub Actions.
+Experience with Kubernetes and AWS
+
+
+Bonus points for:
+
+Solid understanding of integrating automated testing into development pipelines.
+Experience with Ruby on Rails and RSpec.
+Familiarity with modular architectures and microservices.
+Background in agile development environments.
+
+
+High Tech Genesis Inc. is an Equal Opportunity Employer. Diversity and inclusion are at the core of our values.
+
+Please advise High Tech Genesis of any accommodation measures you may require.
+
+Please be advised:
+
+Applicants must have the legal right to work in Canada.
+Please submit your resume in Microsoft Word format when applying for this position.
+
+====
+
+Software Developer 
+Ottawa, ON · 4 months ago · Over 100 people clicked apply
+Responses managed off LinkedIn
+
+
+Full-time
+
+Apply
+
+Save
+Save Software Developer  at Fortinet
+Software Developer
+Fortinet · Ottawa, ON
+
+Apply
+
+Save
+Save Software Developer  at Fortinet
+Show more options
+About the job
+Job Description
+
+Join Fortinet, a cybersecurity pioneer with over two decades of excellence, as we continue to shape the future of cybersecurity and redefine the intersection of networking and security. At Fortinet, our mission is to safeguard people, devices, and data everywhere. Fortinet is growing and we are looking to hire Software Developer for our team in Ottawa.
+
+As a Software Developer, you will
+
+5 plus years of software development experience
+Familiar with cross-platform desktop application development environments ( Windows, MacOS, Linux ) and frameworks such as Electron
+Familiar with full stack web development skills and libs including Javascript, React/Redux, CSS, html5, PWA, Node.JS, MySQL or MongoDB
+Experience in C/C++ is an asset for the middle layer of this development
+Solid background in networking technologies and protocols
+Excellent problem-solving and troubleshooting skills
+Ability to take full ownership of assigned tasks and work well independently.
+Excellent communication skills and teamwork skills
+
+We Are Looking for:
+
+Bachelor's Degree in Computer Science or Electrical Engineering
+Telephony protocol such as VoIP/SIP
+Instant message protocols such as XMPP, Socket.io
+Web technologies including Websocket, WebRTC, WebAudio, HTTP/2
+Experience with MERN or LAMP stack
+Knowledge about Audio CODEC and Video CODEC such as opus, H.264, H.323
+Cloud computing development, such as AWS, Azure, etc.
+
+Fortinet strives to provide you and your family with a comprehensive benefits package. Benefits eligibility starts on your first day of hire and comprises of 100% company-paid medical, dental, and vision coverage, including a Health Spending Account and a Personal Spending Account that gives you flexibility to spend where you need it the most. Our Employee & Family Assistance Plan (EFAP) offers you and your family access to various services like counselling, legal advice, mental health resources etc. We also provide critical illness, disability, and life insurance, as well as a Group Registered Retirement Savings Plan (RRSP) with a company match to help you save faster for retirement. We offer competitive Paid Time Off and flexible leave policies, including paid health days, to help you take care of yourself and your family members.
+
+All roles are eligible to participate in the Fortinet equity program. Bonus eligibility is reviewed at the time of hire and annually at the Company’s discretion.
+
+About Our Team: 
+
+Join our Software Development team, known for its collaborative ethos, working seamlessly with global customers, internal engineering teams and product development groups. Our team culture emphasizes continuous learning, innovation, and a strong commitment to customer satisfaction. We embrace Fortinet’s core values of openness, teamwork and innovation, fostering an environment where team members support each other, share knowledge, and leverage AI to solve complex technical challenges. Our inclusive and dynamic team thrives on collaboration and is driven by the shared goal of maintaining Fortinet’s high standards of excellence in cybersecurity solutions
+
+Why Join Us:
+
+We encourage candidates from all backgrounds and identities to apply. We offer a supportive work environment and a competitive Total Rewards package to support you with your overall health and financial well-being. Embark on a challenging, enjoyable, and rewarding career journey with Fortinet. Join us in bringing solutions that make a meaningful and lasting impact to our 660,000+ customers around the globe.
+
+====
+
+Software Developer *note there are multiple open roles 
+Ottawa, ON · Reposted 6 days ago · Over 100 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+
+
+ Hybrid
+Matches your job preferences, workplace type is Hybrid.
+
+Full-time
+
+Apply
+
+Save
+Save Software Developer *note there are multiple open roles  at Thales
+Software Developer *note there are multiple open roles
+Thales · Ottawa, ON (Hybrid)
+
+Apply
+
+Save
+Save Software Developer *note there are multiple open roles  at Thales
+Show more options
+About the job
+Location: Ottawa, Canada
+
+In fast changing markets, customers worldwide rely on Thales. Thales is a business where brilliant people from all over the world come together to share ideas and inspire each other. In aerospace, transportation, defence, security and space, our architects design innovative solutions that make our tomorrow's possible.
+
+For decades, Ottawa has been a global technology leader. Today, Canada’s capital holds one of the brightest and most diverse technological ecosystems in North America. Voted as Canada’s best place to live 2017 by Maclean's, Ottawa offers a low cost of living with a high quality of life. The Thales Ottawa office has been a major supplier and long-term trusted partner to DND, enabling the Canadian Armed Forces and the Canadian Coast Guard to achieve mission success.
+
+This is a hybrid role in Ottawa, Ontario Canada.
+
+Position Summary
+
+The successful Software Developer candidate will build robust, high performance software systems for defence and security applications, with a particular expected focus on integrating software applications related to Land (i.e. Canadian Army) Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance (C4ISR).
+
+Regulatory Compliance Requirements: 
+
+Please review values for Canada and USA, selecting ALL that apply:
+
+Canada role
+
+Access to Trade Controlled Items
+
+Access to Controlled Goods
+
+Security Clearance
+
+Describe Specific need:
+
+ Ability to obtain a NATO Secret security clearance
+ Ability to meet the eligibility requirements outlined in the Canadian Controlled Goods Registration Program (including ITAR-controlled articles)
+
+
+Key Areas of Responsibility 
+
+The successful candidate will:
+
+ Implement software (with an expected focus on software that integrates multiple applications into a larger system), including design, coding, unit testing, and integration;
+ Produce software developer documentation;
+ Identify and analyze software defects and implement fixes into product releases; and
+ Build and maintain currency in software development best practices and methodologies.
+
+
+Basic Qualifications
+
+ Bachelor’s degree in computer science, software engineering, computer engineering, or equivalent education with relevant experience
+ 7 years’ experience in software development including:
+ Programming experience in C#, Java, and Python
+ Programming experience using communications / interfacing protocols such as:
+
+
+i. REST APIs
+
+ii. Publish/subscribe protocols (DDS, NATS, or others)
+
+iii. TCP/IP, UDP
+
+ Experience developing Graphical User Interfaces with WPF and/or Angular
+
+
+Preferred Qualifications
+
+ Programming experience in Go
+ Experience working in a scrum/agile software development environment including work as a Scrum Master
+ Experience with Army Command, Control, and Communications (C3)
+ Very strong coding, unit testing, and debugging skills
+ Strong oral and written communication skills
+
+
+Special Position Requirements
+
+ Schedule: Full time, in line with Thales Canada core hours
+ Physical Environment: Office / Desk work: > 90%, with a possibility of some lab or field work
+ Travel: Travel may be required and/or daily travel within greater Ottawa region, 
+
+What We Offer
+
+Thales provides an extensive benefits program for all full-time employees working 24 or more hours per week and their eligible dependents, including the following:
+
+Company paid Extended Health, Dental, HSA, Life, AD&D, Short-term Disability, Cancer Care Program, travel insurance, Employee Assistance Plan and Well-Being program.
+
+Retirement Savings Plans (RRSP, DCPP, TFSA) with a company contribution and a match to a DCPP, with no vesting period.
+
+Company paid holidays, vacation days, and paid sick leave.
+
+Voluntary Life, AD&D, Critical Illness, Long-Term Disability.
+
+Employee Discounts on home, auto, and gym membership.
+
+Why Join Us?
+
+Say HI and learn more about working at Thales click here.
+
+Thales provides an extensive benefits program for all full-time employees working 24 or more hours per week and their eligible dependents, including the following:
+
+ Company paid Extended Health, Dental, HSA, Life, AD&D, Short-term Disability, Cancer Care Program, travel insurance, Employee Assistance Plan and Well-Being program.
+ Retirement Savings Plans (RRSP, DCPP, TFSA) with a company contribution and a match to a DCPP, with no vesting period.
+ Company paid holidays, vacation days, and paid sick leave.
+ Voluntary Life, AD&D, Critical Illness, Long-Term Disability.
+ Employee Discounts on home, auto, and gym membership.
+
+
+Thales is an equal opportunity employer which values diversity and inclusivity in the workplace. Thales is committed to providing accommodations in all parts of the interview process. Applicants selected for an interview who require accommodation are asked to advise accordingly upon the invitation for an interview. We will work with you to meet your needs. All accommodation information provided will be treated as confidential and used only for the purpose of providing an accessible candidate experience.
+
+This position requires direct or indirect access to hardware, software or technical information controlled under the Canadian Export Control List, the Canadian Controlled Goods Program, the Canadian Industrial Security Program, the US International Traffic in Arms Regulations (ITAR) and/or the US Export Administration Regulations (EAR). All applicants must be eligible or able to obtain authorization for such access including eligibility to the Canadian Controlled Goods Program and able to obtain a Canadian NATO Secret clearance.
+
+====
+

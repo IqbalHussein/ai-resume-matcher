@@ -1,0 +1,340 @@
+C++ Software Engineer III- job post
+Rakuten Kobo
+3.9
+3.9 out of 5 stars
+Toronto, ON•Hybrid work
+Full-time
+Rakuten Kobo
+Toronto, ON•Hybrid work
+Profile insights
+Here’s how the job qualifications align with your profile.
+Skills
+
+Test-driven development
+
+Software development
+
+Shell Scripting
+
+SQLite
+
+OOP
+
+Linux
+
+JavaScript
+
+HTML
+
+Databases
+
+CSS
+
+C++
+
+Agile
+
+Communication skills
+- show less
+Languages
+
+English
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Job type
+
+Full-time
+&nbsp;
+Location
+Toronto, ON•Hybrid work
+&nbsp;
+Benefits
+Pulled from the full job description
+Stock options
+RRSP match
+Flexible schedule
+&nbsp;
+Full job description
+Job Description:
+Here at Rakuten Kobo Inc. we offer a casual working start-up environment and a group of friendly and talented individuals. Our employees rank us highly in terms of commitment to work/life balance. We realize that for our people to be innovative, creative and passionate they need to feel valued and supported. We believe in rewarding all our employees with competitive salaries, performance based annual bonuses, stock options and training opportunities.
+
+If you’re looking for a company that inspires passion, personal, and professional growth – join Kobo and come help us on our mission of making reading lives better.
+The Role:
+Rakuten Kobo's eReader team is looking for an experienced C++ Software Developer with leadership aspirations to work on our range of eReader devices. You will be joining a software delivery team of ~15 to work on building and enhancing some of the top eReaders in the market. We are looking for someone who is eager to take on increasing responsibility and has the potential to grow into a Team Lead within ~6 months.
+Here are some of the things we do and strongly believe in:
+We follow an Agile development process that encourages trying new things and making suggestions to enable us to continuously improve
+We’re dedicated to crafting high-quality, peer-reviewed code, and we’re continuously working on growing our automated test suite to ensure reliability and efficiency
+Every member on the team has a voice and is encouraged to contribute to planning, designing, and decision making
+QA is embedded within our development teams is involved in projects from day one, promoting a collaborative approach to quality
+We host regular learning sessions on various engineering topics hosted by members of the team
+Responsibilities:
+As a member of an Agile development team:
+Design, implement, and test new functionality for Kobo eReader devices
+Propose and carry out refactoring within the codebase to improve design and quality
+Debug and fix defects found by QA and customers
+Review code for other developers on the team
+Estimate the effort for future work as an input to planning
+Collaborate within the eReader team on improvements to our processes and code base
+Share your knowledge to help grow other members on the team and in turn learn from other members on the team
+
+Requirements:
+Strong software design skills, including:
+Object-oriented design incorporating design principles and patterns
+Identifying and explaining trade-offs and rationale
+Converting final state designs into a sequence of smaller testable incremental steps
+Strong software development skills in C++11 (or newer), including:
+Reviewing code and providing feedback (with rationale) to improve code
+Following modern development best practices
+Experience developing graphical user interfaces in C++ using Qt or a similar library
+Experience with embedded development, preferably on Linux
+5+ years of experience as a developer in an Agile development environment
+Strong written and verbal communication skills in English
+Familiar with:
+Multi-threaded applications development
+Web technologies (JavaScript/CSS/HTML/ HTTP/etc.)
+
+Bonus points:
+Experience with GCC, ARM toolchains, and shell scripting
+Experience with writing and maintaining automated tests in C++, ideally including:
+Use of dependency injection and mocking frameworks
+Use of test frameworks such as Google Test
+User interface tests
+Experience with TDD
+Familiarity with the EPUB format/standard
+EInk screen experience
+Database experience with SQLite
+
+The Perks:
+Flexible hours and hybrid remote working environment
+Subsidized in-office lunches
+Full benefits starting from your first day
+Paid Volunteer days, unlimited sick days, and 3% RRSP matching
+Monthly commuting allowance for those who are hybrid
+Lifestyle spending account
+Talent and development training budget
+Free Kobo device + free weekly e-book or audiobook
+Weekly Kobo Tech University sessions
+Maternity/paternity leave top up
+Dog friendly office
+About Rakuten Kobo Inc.
+Owned by Tokyo-based Rakuten and headquartered in Toronto, Rakuten Kobo Inc. is one of the most advanced global ecommerce companies, with the world’s most innovative e-reading services offering more than 6 million eBooks and audiobooks to 30 million + customers in 190 countries. Kobo delivers the best digital reading experience through creative innovation, award-winning e-readers, and top-ranking mobile apps. Kobo is a part of the Rakuten group of companies.
+
+Rakuten Kobo Inc. is an equal opportunity employer. Accessibility accommodations for candidates with disabilities participating in the selection process are available on request. Any information received related to accommodation needs of applicants will be addressed confidentially.
+
+Rakuten Kobo would like to thank all applicants for their interest in this role however only qualified candidates will be shortlisted.
+Beware of fraudulent job offers claiming to be from Rakuten. Rakuten does not send unsolicited job offers or request money during the recruitment process. Learn more:
+https://rakutenemploymentalert.com/
+
+#RKIND
+
+====
+
+Software Engineer - Full Stack 
+Ottawa, ON · Reposted 18 hours ago · Over 100 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+
+
+Remote
+
+Full-time
+
+Apply
+
+Save
+Save Software Engineer - Full Stack  at Veeva Systems
+Software Engineer - Full Stack
+Veeva Systems · Ottawa, ON (Remote)
+
+Apply
+
+Save
+Save Software Engineer - Full Stack  at Veeva Systems
+Show more options
+About the job
+Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $2B in revenue in our last fiscal year with extensive growth potential ahead.
+
+At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company – we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors.
+
+As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment.
+
+Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities.
+
+The Role
+
+Our teams are hiring multiple talented Full-Stack Software Engineers to build innovative products in Life Sciences. You'll work with the latest front-end and back-end technologies as we tackle some of the biggest challenges facing the world today.
+
+We are looking for engineers that would thrive in a fast-paced, startup environment while having the stability of a successful, profitable company. You have extensive experience in Java and Javascript applications and the latest open source technologies. You’ve ideally worked in enterprise software development or for a high-growth technology company.
+
+What You'll Do
+
+Participate in all aspects of the SDLC
+Collaborate with product managers, other engineers, and domain experts to design and develop cutting-edge applications in life science
+Collaborate with Quality Assurance engineers to ensure accurate and comprehensive testing coverage
+Contribute to troubleshooting and technical support of the product
+
+Requirements
+
+2+ years of experience in software product development
+Experience with Javascript front-end libraries such as React, Angular, or Vue
+Experience with backend development in Java
+Experience with CSS abstraction layers (e.g. SASS or JSS)
+Experience with RDBMS such as MySQL, Oracle, or MS SQL Server
+Strong communication skills
+EST and CST time zones are preferred
+BS in engineering/computer science or equivalent
+We are looking for strong mentors with a proven record of making your team better
+
+Nice to Have
+
+Previous experience working in an agile environment
+Experience with the Spring framework
+Experience with ES6
+Experience with Software-as-a-Service (SaaS) product development
+Experience with content management products and technologies
+
+Learn More
+
+Engineer Perspective: 3 Reasons to Consider Veeva
+Engineering at Veeva
+
+Perks & Benefits
+
+Medical, dental, vision, and basic life insurance
+PTO and company-paid holidays
+Retirement programs
+1% charitable giving program
+
+Compensation
+
+Base pay: $85,000 - $225,000 
+The salary range listed here has been provided to comply with local regulations and represents a potential base salary range for this role. Please note that actual salaries may vary within the range above or below, depending on experience and location. We look at compensation for each individual and base our offer on your unique qualifications, experience, and expected contributions. This position may also be eligible for other types of compensation in addition to base salary, such as variable bonus and/or stock bonus.
+
+Veeva’s headquarters is located in the San Francisco Bay Area with offices in more than 15 countries around the world.
+
+Veeva is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, sex, sexual orientation, gender identity or expression, religion, national origin or ancestry, age, disability, marital status, pregnancy, protected veteran status, protected genetic information, political affiliation, or any other characteristics protected by local laws, regulations, or ordinances. If you need assistance or accommodation due to a disability or special need when applying for a role or in our recruitment process, please contact us at talent_accommodations@veeva.com.
+
+====
+
+Profile insights
+Here’s how the job qualifications align with your profile.
+Skills
+
+Python
+ (Required)
+
+C++
+ (Required)
+
+C
+ (Required)
+
+Software development
+
+Verilog
+
+Rust (programming language)
+
+Research
+
+FPGA
+
+Leadership
+
+Communication skills
+- show less
+Education
+
+Bachelor's
+ (Required)
+Languages
+
+English
+&nbsp;
+Job details
+Here’s how the job details align with your profile.
+Pay
+
+$90,000–$120,000 a year
+Job type
+
+Full-time
+Shift and schedule
+
+8 hour shift
+
+Day shift
+
+Monday to Friday
+&nbsp;
+Location
+Kanata, ON K2K 2E1•Hybrid work
+&nbsp;
+Benefits
+Pulled from the full job description
+Paid time off
+Vision care
+Dental care
+Life insurance
+Disability insurance
+Casual dress
+Extended health care
+&nbsp;
+Full job description
+Agile Electromagnetics is a Canadian company focused on developing next generation remote sensing and counter-drone systems. We have a range of projects, that require development of embedded software and systems running on AMD/Xilinx System-on-Chip devices as well as server and user facing applications that interact with these systems.
+
+This role will be a critical part of our team, developing software in collaboration with 2 to 3 other engineers. They will work closely with the hardware, FPGA, and signal processing teams to deliver novel solutions for our customers. This role requires someone with the ability to learn quickly, work both independently and collaboratively, communicate their vision effectively, and deliver solutions.
+
+Responsibilities
+
+Develop and maintain software and embedded software using programming languages like C, C++, Rust and Python.
+develop of software tools, libraries, and frameworks both independently and as part of a team.
+participate in and conduct code reviews, providing constructive feedback to enhance code quality.
+Maintain documentation of software designs, processes, and development tasks.
+Participate in every phase of product development, including requirements definition, architecture and concept definition, specification and selection of components, algorithm definition, detailed implementation, integration and characterisation
+Qualifications
+
+Experience working on software and embedded software.
+Minimum bachelor’s degree in computer science or engineering.
+Experience developing software for AMD/Xlinix FPGA SoCs is an asset.
+Experience with FPGA (VHDL, Verilog etc. ) programming is an asset.
+Experience developing software using Python, C, and C++.
+Experience developing software with Rust is an asset.
+Excellent problem-solving skills and the ability to conduct independent research
+Excellent English communication skills
+Excellent leadership skills
+This is a hybrid role at our office in Kanata and requires the ability to be certified to access Controlled Goods.
+
+Job Types: Full-time, Permanent
+
+Pay: $90,000.00-$120,000.00 per year
+
+Schedule:
+
+8 hour shift
+Day shift
+Monday to Friday
+Hybrid
+Job Type: Full-time
+
+Pay: $90,000.00-$120,000.00 per year
+
+Benefits:
+
+Casual dress
+Dental care
+Disability insurance
+Extended health care
+Life insurance
+On-site parking
+Paid time off
+Vision care
+Work from home
+Education:
+
+Bachelor's Degree (preferred)
+Language:
+
+English (preferred)
+Work Location: Hybrid remote in Kanata, ON K2K 2E1
+
