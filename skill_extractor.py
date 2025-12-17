@@ -69,6 +69,3 @@ if jobs and jobs[0].strip():
         if len(first_job_lines) > 1:
             print("SECOND LINE:", first_job_lines[1])
 
-print(f"\nStructured jobs created: {len(structured_jobs)}")
-if structured_jobs:
-    print("Example record:", structured_jobs[0])
