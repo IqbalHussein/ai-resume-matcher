@@ -1,4 +1,5 @@
 #Simple program designed to pull skills from a job posting
+import json
 
 with open("test_jobs.txt", "r", encoding="utf-8") as file:
     raw_file_data = file.read()
@@ -37,7 +38,7 @@ for idx, job in enumerate(jobs):
     lines = [line.strip() for line in lines if line.strip()]
     print(f"Job {idx+1} has {len(lines)} non-empty lines")
 
-    # Find skills mentioned in the job posting (case-insensitive)
+    # Pull skills from job postings
     found_skills = set()
     job_text = job.lower()
     for skill in soft_eng_skills:
@@ -59,13 +60,17 @@ for idx, job in enumerate(jobs):
         "skills": sorted(found_skills)
     }
 
-structured_jobs.append(job_record)
+    structured_jobs.append(job_record)
 
 if jobs and jobs[0].strip():
-    # Print the first non-empty line of the first job (if available)
+    # Print first line of every job
     first_job_lines = [l.strip() for l in jobs[0].splitlines() if l.strip()]
     if first_job_lines:
         print("FIRST LINE:", first_job_lines[0])
         if len(first_job_lines) > 1:
             print("SECOND LINE:", first_job_lines[1])
 
+with open("data/structured_jobs.json", "w", encoding="utf-8") as file:
+    json.dump(structured_jobs, file, indent=2, ensure_ascii=False)
+
+print(len(structured_jobs))
