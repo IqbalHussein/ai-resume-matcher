@@ -1,0 +1,91 @@
+Iqbal Hussein 
+613-462-4995, iqbalhussein@cmail.carleton.ca, LinkedIn, GitHub 
+EDUCATION  
+Bachelor of Engineering, Software, Co-op Option                 
+Carleton University, Ottawa, ON   
+● Second year standing, 10.33/12 (A-) 
+● Academic Entrance Scholarship 
+● Expected Graduation Date: April 2029 
+AVAILABILITY  
+Available for 4 months beginning in May 2026 
+RELEVANT SKILLS, EXPERIENCES AND ACCOMPLISHMENTS  
+Technical Skills  
+September 2024-Present  
+● Produced a program with a team to manage a dataset for a fictional school population using 
+Python. Produced code that was efficient, well tested using automated testing, and highly 
+readable 
+● Developed a detailed and comprehensive test harness for a program using Python’s testing 
+features, including unit-tests for individual parts, to ensure comprehensive testing that was easy 
+to interpret and act upon 
+● Programmed several small-scale programs using the C programming language, as well as with 
+the Sput testing framework to produce fast and well-tested functions 
+● Utilized version control using Git to make fixes, push and pull versions, and add features to a 
+program after initial deployment 
+● Working knowledge with Bash and Linux-based development environments 
+● Assembled programs at the hardware level using Digital System Design and the Verilog language, 
+including the use of breadboards and FPGAs for physical implementation 
+Communication Skills  
+● Implemented the Agile framework to produce a program with three team members, 
+emphasizing frequent communication, seeking feedback often, and working in short sprints of a 
+few days to a week 
+● Led regular meetings to interface with team members, understand any challenges, and 
+formulate next steps, resulting in the delivery of work that was on time and of high quality, 
+earning an A+ grade. 
+● Delivered lab reports using word and data processing such as MS Word and MS Excel, producing 
+reports that were both detailed and well-organized. 
+● Produced concise E-mails to other team members outlining the progress made as well as what    
+was to be done by each team member during any given sprint, ensuring total understanding. 
+● Fully fluent in English and functional in French. 
+WORK EXPERIENCE 
+Team Member                               
+Tim Hortons, Ottawa, Ontario 
+July 2025-Present  
+● Performed work at high speed while maintaining high attention to detail, minimizing customer 
+dissatisfaction 
+● Handled rush periods by ensuring preparedness, preventing severe slowdown or pile-up 
+● Autonomously completed tasks such as logging temperature, logging production volume and 
+performing closing procedures with no management oversight 
+APPLIED PROJECTS 
+Developer and Team Lead                                                                                                            
+Data Management Project 
+March-April 2025  
+● Created a program to manage data from a fictional school using Python to allow for easy viewing 
+of the data graphically as well as easy grading and manipulation of the data 
+● Worked effectively in a small team of 4 using email and in-person meetings to keep all members 
+on the same track to complete the project effectively 
+● Documented and produced testing for the program to allow for easy scalability as well as easy 
+spotting of any issues as they appeared 
+● Worked in short sprints to keep the scope of work digestible and ensure that the team could 
+frequently update on where to act next 
+● Delivered the program on time and with high-quality, graded as an A+ 
+Solo Developer                                                                                                             
+AI Resume Matcher 
+September 2025-Present  
+● Developing a program that matches resumes to job descriptions using Natural Language 
+Processing and transformer-based models, helping job seekers find jobs tailored to their resume   
+● Performing regular updates and maintenance using GitBash and the GitHub platform 
+● Utilizing algorithms that match resumes to jobs to hit >70% F1 at detecting employer skills 
+● Creating a web app that allows the user to easily drop in their resume and receive the output in 
+a fast manner by using APIs 
+● Making use of scheduling, Notion, and kanban planning to keep work organized and ensure that 
+key deliverables are met for the project on a weekly basis 
+VOLUNTEER EXPERIENCE/ EXTRA-CURRICULAR ACTIVITIES  
+Organizational Member and Part-time Teacher           
+Darul-Uloom Masjid & Center, Ottawa, Ontario  
+2023-Present  
+● Interfaced with members of the community through events, galas, and online networks 
+including Facebook, Instagram, and WhatsApp to understand community concerns 
+● Aided in the creation of front-facing communications, including stage designs, organizational 
+messaging, slideshows and posters to provide effective communication to the public 
+● Organized events ranging from children’s activities to large-scale fundraising efforts including 
+planning as well as in-person execution 
+● Maintained smooth day-to-day operation by implementing systems and creating 
+communication channels with parents to reduce burden and stress 
+● Performed basic upkeep duties such as cleaning and tidying the physical space 
+Black Youth in STEM Club Member             
+Lester B. Pearson High School, Ottawa, Ontario  
+September 2023-June 2024  
+● Gained exposure to professionals in fields including Computer Science and Cybersecurity 
+● Aided in planning club meetings and events and worked with other members extensively to 
+keep the club running smoothly 
+● Produced both internal and external communications relating to club matters 
