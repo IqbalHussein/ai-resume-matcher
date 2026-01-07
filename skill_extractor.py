@@ -1,7 +1,8 @@
 #Simple program designed to pull skills from a job posting or resume
-import json, re, typing
+import json, re
 from collections import Counter
 from pathlib import Path
+from typing import Dict, List, Tuple, Optional
 
 ALIASES = {
     # ML / frameworks
@@ -21,6 +22,9 @@ ALIASES = {
     "ci/cd": "CI/CD",
     "test driven development": "Test Driven Development",
     "tdd": "TDD",
+    "unit tests": "Unit Testing",
+    "unit-tests": "Unit Testing",
+    "unit-test": "Unit Testing"
 }
 
 # Skills that are risky to match by substring
@@ -29,15 +33,16 @@ STRICT_SKILLS = {
     "sql": "SQL",
     "c++": "C++",
     "c#": "C#",
+    "c": "C"
 }
 
 # Pre-compile regex patterns for strict skills
 STRICT_PATTERNS = {
     "go": re.compile(r"(?<![a-z0-9])go(?![a-z0-9])", re.IGNORECASE),
     "sql": re.compile(r"(?<![a-z0-9])sql(?![a-z0-9])", re.IGNORECASE),
-    # C++ and C# need symbol-aware boundaries
     "c++": re.compile(r"(?<![a-z0-9])c\+\+(?![a-z0-9])", re.IGNORECASE),
     "c#": re.compile(r"(?<![a-z0-9])c#(?![a-z0-9])", re.IGNORECASE),
+    "c": re.compile(r"(?<![a-z0-9])c(?![a-z0-9])", re.IGNORECASE)
 }
 
 # Normalize text for alias matching
@@ -221,7 +226,7 @@ with open("sample-postings.txt", "r", encoding="utf-8") as file:
 jobs = raw_file_data.split("====")
 soft_eng_skills = [
     #Languages
-    "Python", "Java", "C++", "C#", "JavaScript", "TypeScript", "Go", "SQL", "Shell", "Bash",
+    "Python", "Java", "C++", "C#", "JavaScript", "TypeScript", "Go", "SQL", "Shell", "Bash", "C", "Verilog",
 
     #ML Frameworks
     "TensorFlow", "Torch", "PyTorch", "Keras", "scikit-learn", "XGBoost", "LightGBM",
@@ -242,9 +247,48 @@ soft_eng_skills = [
     "AWS", "EC2", "S3", "Lambda", "VPC", "Docker", "Kubernetes", "Terraform", "Jenkins", "CI/CD", "MLFlow", "Kubeflow", "Airflow", "Tecton", "Luigi",
 
     #Misc
-    "REST API", "GraphQL", "Flask", "FastAPI", "Docker Compose", "Pip", "Conda", "Jupyter", "VSCode"
+    "REST API", "GraphQL", "Flask", "FastAPI", "Docker Compose", "Pip", "Conda", "Jupyter", "VSCode", "Linux", "FPGA", "Testing"
 ]
 
+SKILL_WEIGHTS = {
+    # Cloud / DevOps
+    "AWS": 3.0,
+    "Docker": 3.0,
+    "Kubernetes": 3.0,
+    "CI/CD": 2.5,
+    "Jenkins": 2.0,
+    "Terraform": 2.5,
+    "Linux": 2.5,
+
+    # Core SWE
+    "Python": 2.5,
+    "Java": 2.5,
+    "C++": 2.5,
+    "C": 2.0,
+    "SQL": 2.0,
+    "Git": 2.0,
+    "Version Control": 2.0,
+    "Unit Testing": 2.0,
+    "Code Review": 1.8,
+
+    # Data/ML
+    "TensorFlow": 2.0,
+    "PyTorch": 2.0,
+    "MLflow": 2.0,
+    "Airflow": 2.0,
+
+    # Process
+    "Agile": 1.0,
+    "Scrum": 1.0,
+    "Shell": 1.2,
+    "Bash": 1.2,
+
+    # Embedded/Hardware
+    "Verilog": 1.8,
+    "FPGA": 1.8,
+    "NoSQL": 1.5,
+    "Pip": 1.0,
+}
 
 structured_jobs = []
 for idx, job in enumerate(jobs):
@@ -281,21 +325,6 @@ with open("data/structured_jobs.json", "w", encoding="utf-8") as file:
 
 with open("data/structured_jobs.json", "r", encoding="utf-8") as f:
     structured_jobs = json.load(f)
-
-skill_counter = Counter()
-for job in structured_jobs:
-    skill_counter.update(job.get("skills", []))
-
-TOP_N = 15
-print(f"Top {TOP_N} skills across {len(structured_jobs)} postings:\n")
-for skill, count in skill_counter.most_common(TOP_N):
-    print(f"{skill}: {count}")
-
-zero_skill_jobs = sum(1 for job in structured_jobs if not job.get("skills"))
-print(f"\nJobs with no skills extracted: {zero_skill_jobs}")
-
-
-print(len(structured_jobs))
 
 def read_text_file(path: str) -> str:
 
@@ -339,6 +368,221 @@ def normalize_text(text: str) -> str:
 raw_resume = read_text_file("data/resume.txt")
 resume_text = normalize_text(raw_resume)
 
-print("Chars (raw):", len(raw_resume))
-print("Chars (normalized):", len(resume_text))
-print("\nPreview:\n", resume_text[:400])
+CANONICAL_SECTIONS = [
+    "summary",
+    "skills",
+    "experience",
+    "projects",
+    "education",
+    "certifications",
+    "leadership",
+    "awards",
+    "publications",
+    "other",
+]
+
+# Heading aliases -> canonical section
+HEADING_ALIASES = {
+    # Summary
+    "summary": "summary",
+    "professional summary": "summary",
+    "profile": "summary",
+    "objective": "summary",
+
+    # Skills
+    "skills": "skills",
+    "technical skills": "skills",
+    "technologies": "skills",
+    "tech stack": "skills",
+    "relevant skills, experiences and accomplishments": "skills",
+
+    # Experience
+    "experience": "experience",
+    "work experience": "experience",
+    "professional experience": "experience",
+    "employment": "experience",
+    "employment history": "experience",
+
+    # Projects
+    "projects": "projects",
+    "personal projects": "projects",
+    "selected projects": "projects",
+    "project experience": "projects",
+
+    # Education
+    "education": "education",
+    "academic background": "education",
+
+    # Certifications
+    "certifications": "certifications",
+    "certificates": "certifications",
+    "licenses": "certifications",
+
+    # Leadership
+    "leadership": "leadership",
+    "leadership experience": "leadership",
+    "activities": "leadership",
+    "extracurricular": "leadership",
+
+    # Awards
+    "awards": "awards",
+    "honors": "awards",
+    "honours": "awards",
+
+    # Publications
+    "publications": "publications",
+}
+
+BULLET_PREFIXES = ("-", "•", "*", "–", "—")
+
+def _normalize_heading(line: str) -> str:
+    """
+    Normalize a candidate heading line:
+    - lowercase
+    - remove trailing colon
+    - collapse spaces
+    - strip punctuation-ish noise around edges
+    """
+    s = line.strip().lower()
+    s = s.rstrip(":")
+    s = re.sub(r"\s+", " ", s)
+    s = s.strip(" -•*–—\t")
+    return s
+
+def _looks_like_heading(line: str) -> bool:
+    """
+    Decide if a line is a section heading.
+    Heuristics:
+    - short-ish line
+    - not a bullet line
+    - either:
+        a) matches a known heading alias (case-insensitive), OR
+        b) is all-caps and "heading-like"
+    """
+    raw = line.strip()
+    if not raw:
+        return False
+
+    # Bullet lines are content, not headings
+    if raw.startswith(BULLET_PREFIXES):
+        return False
+
+    # Too long to be a heading
+    if len(raw) > 60:
+        return False
+
+    norm = _normalize_heading(raw)
+
+    # Direct match to known headings
+    if norm in HEADING_ALIASES:
+        return True
+
+    if raw.isupper() and 3 <= len(raw) <= 30 and any(c.isalpha() for c in raw):
+        if len(raw.split()) >= 2 or norm in {"education", "projects", "experience", "skills"}:
+            return True
+
+    return False
+
+def split_resume_sections(resume_text: str) -> Dict[str, str]:
+    """
+    Split a normalized resume text into sections based on heading lines.
+    Returns {canonical_section_name: section_text}.
+    Any text before the first detected heading becomes "summary" (if non-empty).
+    Unknown headings will be stored under "other" (appended).
+    """
+    lines = resume_text.split("\n")
+
+    sections: Dict[str, List[str]] = {k: [] for k in CANONICAL_SECTIONS}
+    current_section: Optional[str] = None
+    preamble: List[str] = []
+
+    def flush_preamble_into_summary():
+        nonlocal preamble
+        text = "\n".join([ln for ln in preamble if ln.strip()]).strip()
+        if text:
+            sections["summary"].append(text)
+        preamble = []
+
+    for line in lines:
+        if _looks_like_heading(line):
+            # We hit a new section heading
+            heading_norm = _normalize_heading(line)
+            canonical = HEADING_ALIASES.get(heading_norm, "other")
+
+            # If this is the first heading, preamble becomes summary
+            if current_section is None:
+                flush_preamble_into_summary()
+
+            current_section = canonical
+            continue
+
+        # Normal content line
+        if current_section is None:
+            preamble.append(line)
+        else:
+            sections[current_section].append(line)
+
+    # End: if we never saw a heading, everything becomes summary
+    if current_section is None:
+        flush_preamble_into_summary()
+    else:
+        # if there's leftover preamble (rare), treat it as summary
+        flush_preamble_into_summary()
+
+    # Join and trim
+    out: Dict[str, str] = {}
+    for k, lines_list in sections.items():
+        text = "\n".join(lines_list).strip()
+        if text:
+            out[k] = text
+
+    return out
+
+sections = split_resume_sections(resume_text)
+
+resume_skills_all = extract_skills(resume_text, soft_eng_skills)
+resume_skills_section = extract_skills(sections.get("skills", ""), soft_eng_skills)
+
+def match_resume_to_jobs(structured_jobs: list[dict], resume_skills: list[str]) -> list[dict]:
+    resume_set = set(resume_skills)
+    results = []
+
+    for job in structured_jobs:
+        job_skills = job.get("skills", [])
+        job_set = set(job_skills)
+
+        matched = sorted(job_set & resume_set)
+        missing = sorted(job_set - resume_set)
+
+        # Weighted score = matched weight / total job weight
+        total_weight = sum(SKILL_WEIGHTS.get(s, 1.0) for s in job_set)
+        matched_weight = sum(SKILL_WEIGHTS.get(s, 1.0) for s in matched)
+        score = matched_weight / max(1e-9, total_weight)  # avoid divide-by-zero
+
+        results.append({
+            "job_id": job.get("id"),
+            "title": job.get("title"),
+            "company": job.get("company"),
+            "score": round(score, 3),
+            "matched_skills": matched,
+            "missing_skills": missing,
+            "job_skill_count": len(job_set),
+            "matched_count": len(matched),
+            "matched_weight": round(matched_weight, 2),
+            "total_weight": round(total_weight, 2),
+        })
+
+    results.sort(key=lambda x: (x["score"], x["matched_weight"], x["matched_count"]), reverse=True)
+    return results
+
+resume_skills_for_matching = sorted(set(resume_skills_section) | set(resume_skills_all))
+
+match_results = match_resume_to_jobs(structured_jobs, resume_skills_for_matching)
+
+TOP_K = 5
+print(f"\nTop {TOP_K} job matches based on skills overlap:\n")
+for i, r in enumerate(match_results[:TOP_K], start=1):
+    print(f"{i}) {r['title']} — {r['company']} | score={r['score']} ({r['matched_count']}/{r['job_skill_count']})")
+    print("   matched:", ", ".join(r["matched_skills"]) if r["matched_skills"] else "None")
+    print("   missing:", ", ".join(r["missing_skills"][:12]) + (" ..." if len(r["missing_skills"]) > 12 else ""))
+    print()
