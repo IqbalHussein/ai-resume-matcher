@@ -63,6 +63,7 @@ ai-resume-matcher/
 │   │
 │   ├── matching/
 │   │   ├── matcher.py
+│   │   ├── semantic.py
 │   │   └── evidence.py
 │   │
 │   └── __init__.py
@@ -118,6 +119,7 @@ python main.py
   "title": str,
   "company": str,
   "score": float,
+  "semantic_score": float,
   "matched_skills": list[str],
   "missing_skills": list[str],
   "matched_weight": float,

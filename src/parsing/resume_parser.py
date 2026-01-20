@@ -2,7 +2,7 @@ import re
 from typing import Dict, List, Optional
 from src.parsing.text_utilities import read_text_file, normalize_text
 from src.config.skills import SOFT_ENG_SKILLS
-from skills_extraction import extract_skills
+from src.parsing.skills_extraction import extract_skills
 
 
 CANONICAL_SECTIONS = [

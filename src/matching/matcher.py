@@ -1,8 +1,9 @@
 from src.config.weights import SKILL_WEIGHTS
 from src.matching.evidence import find_skill_evidence
+from src.matching.semantic import SemanticMatcher
 
 
-def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str]) -> list[dict]:
+def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str], resume_content: str = "") -> list[dict]:
     """
     Match a resume against multiple job postings using weighted skill scoring.
     
@@ -17,16 +18,21 @@ def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str]) -> list
     Args:
         structured_jobs: List of job dictionaries with 'skills', 'text', etc.
         resume: List of skill strings from the resume
+        resume_content: Full text of the resume for semantic matching
         
     Returns:
         List of match result dictionaries sorted by score (descending), each containing:
         - Basic job info (id, title, company)
-        - Match metrics (score, matched_count, matched_weight, total_weight)
+        - Match metrics (score, matched_count, matched_weight, total_weight, semantic_score)
         - Skill breakdowns (matched_skills, missing_skills)
         - Evidence snippets showing where skills appear in job and resume
     """
     resume_set = set(resume)
     results = []
+
+    semantic_matcher = None
+    if resume_content:
+        semantic_matcher = SemanticMatcher()
 
     for job in structured_jobs:
         job_skills = job.get("skills", [])
@@ -35,10 +41,16 @@ def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str]) -> list
         matched = sorted(job_set & resume_set)
 
         job_text = job.get("text", "")
-        resume_text = " ".join(resume)
+        
+        semantic_score = 0.0
+        if semantic_matcher:
+            semantic_score = semantic_matcher.compute_similarity(resume_content, job_text)
+
+        # "resume" is a list of skills. Join them for evidence finding (which expects text)
+        resume_skills_text = " ".join(resume)
 
         job_evidence = find_skill_evidence(job_text, matched)
-        resume_evidence = find_skill_evidence(resume_text, matched)
+        resume_evidence = find_skill_evidence(resume_skills_text, matched)
 
         missing = sorted(job_set - resume_set)
 
@@ -52,6 +64,7 @@ def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str]) -> list
             "title": job.get("title"),
             "company": job.get("company"),
             "score": round(score, 3),
+            "semantic_score": round(semantic_score, 3),
             "matched_skills": matched,
             "missing_skills": missing,
             "job_skill_count": len(job_set),
@@ -64,5 +77,5 @@ def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str]) -> list
             }
         })
 
-    results.sort(key=lambda x: (x["score"], x["matched_weight"], x["matched_count"]), reverse=True)
+    results.sort(key=lambda x: (x["score"], x["semantic_score"], x["matched_weight"], x["matched_count"]), reverse=True)
     return results

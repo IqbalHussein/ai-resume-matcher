@@ -28,11 +28,12 @@ def main():
 
     # choose which resume skill list to match with
     resume_skills = resume["skills_all"]
-    results = match_resume_to_jobs(jobs, resume_skills)
+    # Pass resume text for semantic matching
+    results = match_resume_to_jobs(jobs, resume_skills, resume_content=resume["text"])
 
     print("\nTop 5 job matches:\n")
     for i, r in enumerate(results[:5], start=1):
-        print(f"{i}) {r['title']} — {r['company']} | score={r['score']} "
+        print(f"{i}) {r['title']} — {r['company']} | score={r['score']} | semantic={r.get('semantic_score', 0)} "
             f"({r['matched_weight']}/{r['total_weight']})")
         print("   matched:", ", ".join(r["matched_skills"]) if r["matched_skills"] else "None")
         print("   missing:", ", ".join(r["missing_skills"][:12]) + (" ..." if len(r["missing_skills"]) > 12 else ""))
@@ -53,6 +54,7 @@ def main():
             "title": r["title"],
             "company": r["company"],
             "score": round(r["score"], 3),
+            "semantic_score": r.get("semantic_score", 0),
             "matched_skills": r["matched_skills"],
             "missing_skills": r["missing_skills"]
         })

@@ -1,7 +1,7 @@
 from src.config.skills import NOISE_SUBSTRINGS, META_SUBSTRINGS, TITLE_KEYWORDS, SOFT_ENG_SKILLS
 import re
 from src.parsing.text_utilities import read_text_file, normalize_text
-from skills_extraction import extract_skills
+from src.parsing.skills_extraction import extract_skills
 
 def parse_jobs_from_file(filename):
     """
