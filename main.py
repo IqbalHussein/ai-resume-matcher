@@ -34,8 +34,8 @@ def main():
 
     # choose which resume skill list to match with
     resume_skills = resume["skills_all"]
-    # Pass resume text for semantic matching
-    results = match_resume_to_jobs(jobs, resume_skills, resume_content=resume["text"])
+    # Pass full resume object for granular semantic matching
+    results = match_resume_to_jobs(jobs, resume_skills, resume_data=resume)
 
     print("\nTop 5 job matches:\n")
     for i, r in enumerate(results[:5], start=1):

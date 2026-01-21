@@ -1,71 +1,89 @@
-import re
-from src.config.skills import ALIASES, STRICT_SKILLS
+import spacy
+from spacy.language import Language
+from src.config.skills import ALIASES, STRICT_SKILLS, SOFT_ENG_SKILLS
 
-STRICT_PATTERNS = {
-    "go": re.compile(r"(?<![a-z0-9])go(?![a-z0-9])", re.IGNORECASE),
-    "sql": re.compile(r"(?<![a-z0-9])sql(?![a-z0-9])", re.IGNORECASE),
-    "c++": re.compile(r"(?<![a-z0-9])c\+\+(?![a-z0-9])", re.IGNORECASE),
-    "c#": re.compile(r"(?<![a-z0-9])c#(?![a-z0-9])", re.IGNORECASE),
-    "c": re.compile(r"(?<![a-z0-9])c(?![a-z0-9])", re.IGNORECASE),
-}
+_nlp = None
 
-def _normalize_for_alias(text: str) -> str:
+def _get_nlp() -> Language:
     """
-    Normalize text for consistent alias matching.
+    Load and configure the spaCy model with a custom EntityRuler for skills.
     
-    Converts text to lowercase, removes HTML entities like &nbsp;, and collapses
-    multiple whitespace characters into single spaces for uniform skill matching.
+    The model is cached in a global variable to avoid reloading overhead.
+    Patterns are generated from STRICT_SKILLS, ALIASES, and SOFT_ENG_SKILLS.
+    """
+    global _nlp
+    if _nlp is not None:
+        return _nlp
     
-    Args:
-        text: Raw text to normalize
+    nlp = spacy.load("en_core_web_sm")
+    
+    ruler = nlp.add_pipe("entity_ruler", before="ner")
+    
+    patterns = []
+    
+    for key, canonical in STRICT_SKILLS.items():
+        if key == "go":
+            patterns.append({"label": "SKILL", "pattern": [{"ORTH": "Go"}], "id": canonical})
+            patterns.append({"label": "SKILL", "pattern": [{"LOWER": "go", "POS": "PROPN"}], "id": canonical})
+            patterns.append({"label": "SKILL", "pattern": [{"LOWER": "golang"}], "id": canonical})
+        else:
+            doc = nlp.make_doc(key)
+            pattern = [{"LOWER": token.text.lower()} for token in doc]
+            patterns.append({"label": "SKILL", "pattern": pattern, "id": canonical})
+
+    for alias, canonical in ALIASES.items():
+        doc = nlp.make_doc(alias)
+        pattern = [{"LOWER": token.text.lower()} for token in doc]
+        patterns.append({"label": "SKILL", "pattern": pattern, "id": canonical})
+
+    strict_canonicals = set(STRICT_SKILLS.values())
+    
+    for skill in SOFT_ENG_SKILLS:
+        if skill in strict_canonicals:
+            continue
+            
+        doc = nlp(skill)
         
-    Returns:
-        Normalized lowercase text with collapsed whitespace
-    """
-    t = text.lower()
-    t = t.replace("&nbsp;", " ")
-    t = re.sub(r"\s+", " ", t)
-    return t
+        pattern_lemma = [{"LEMMA": token.lemma_} for token in doc]
+        patterns.append({"label": "SKILL", "pattern": pattern_lemma, "id": skill})
+        
+        pattern_lower = [{"LOWER": token.text.lower()} for token in doc]
+        patterns.append({"label": "SKILL", "pattern": pattern_lower, "id": skill})
+
+    ruler.add_patterns(patterns)
+    _nlp = nlp
+    return _nlp
 
 def extract_skills(text: str, soft_eng_skills: list[str]) -> list[str]:
     """
-    Extract technical skills from job postings or resumes using a three-phase approach.
+    Extract technical skills from text using a spaCy EntityRuler pipeline.
     
-    Phase A: Uses regex patterns to match strict skills (Go, SQL, C, C++, C#) that
-             require word boundary detection to avoid false positives.
-    Phase B: Uses substring matching for longer, less ambiguous skills.
-    Phase C: Normalizes found skills using the ALIASES dictionary to ensure
-             consistent canonical naming (e.g., "pytorch" -> "PyTorch").
+    This approach uses token-level matching and lemmatization to find skills,
+    which is more robust than simple substring matching.
     
     Args:
-        text: The job posting or resume text to search
-        soft_eng_skills: List of canonical skill names to search for
+        text: The text to search (job posting or resume)
+        soft_eng_skills: List of canonical skill names to filter results against.
+                         (Note: The EntityRuler is built from the global config,
+                          so this argument acts as a filter for the return value).
         
     Returns:
-        Sorted list of unique, canonicalized skill names found in the text
+        Sorted list of unique, canonicalized skill names found in the text.
     """
+    if not text.strip():
+        return []
+
+    nlp = _get_nlp()
+    
+    doc = nlp(text)
+    
     found = set()
-    text_norm = _normalize_for_alias(text)
-
-    # A) Strict skills (regex)
-    for key, canonical in STRICT_SKILLS.items():
-        if STRICT_PATTERNS[key].search(text):
-            found.add(canonical)
-
-    # B) Longer skills (substring)
-    for skill in soft_eng_skills:
-        s = skill.strip()
-        if not s:
-            continue
-        if s.lower() in STRICT_SKILLS:
-            continue
-        if s.lower() in text_norm:
-            found.add(s)
-
-    # C) Alias normalization
-    normalized = set()
-    for s in found:
-        key = s.lower().strip()
-        normalized.add(ALIASES.get(key, s))
-
-    return sorted(normalized)
+    allowed_skills = set(soft_eng_skills)
+    
+    for ent in doc.ents:
+        if ent.label_ == "SKILL":
+            canonical = ent.ent_id_
+            if canonical in allowed_skills:
+                found.add(canonical)
+            
+    return sorted(list(found))
