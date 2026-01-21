@@ -3,7 +3,7 @@
 ## Project Overview
 AI Resume Matcher is a modular Python project that ingests:
 - raw job postings (text),
-- a candidate resume (text),
+- a candidate resume (text or PDF),
 
 and produces:
 - structured skill extraction,
@@ -32,6 +32,9 @@ This project prioritizes:
 - spaCy (advanced NLP)  
   https://spacy.io/usage
 
+- pypdf (PDF parsing)
+  https://pypdf.readthedocs.io/en/latest/
+
 ### Documentation Updates
 
 **Update this GEMINI.md file** when the user confirms changes are good:
@@ -47,6 +50,7 @@ ai-resume-matcher/
 │   ├── sample-postings.txt
 │   ├── structured_jobs.json
 │   ├── resume.txt
+│   ├── resume.pdf (optional)
 │   ├── resume_structured.json
 │   └── match_report.json
 │
@@ -69,6 +73,7 @@ ai-resume-matcher/
 │   └── __init__.py
 │
 ├── main.py
+├── streamlit_app.py
 ├── requirements.txt
 ├── README.md
 └── GEMINI.md
@@ -78,15 +83,23 @@ ai-resume-matcher/
 
 ## Entry Point Rules (IMPORTANT)
 
-- Only `main.py` should be executed directly
+- `main.py`: CLI entry point. Orchestrates the workflow using files in `data/`.
+- `streamlit_app.py`: Web UI entry point. Orchestrates the workflow using user-uploaded files.
 - Files inside `src/` are modules, not scripts
 - Do NOT add CLI logic or prints inside `src/` modules
-- All orchestration belongs in `main.py`
+- All orchestration belongs in entry points (`main.py` or `streamlit_app.py`)
 
 Run the project using:
 ```bash
 python main.py
+# OR
+streamlit run streamlit_app.py
 ```
+
+## UI Design Principles (Streamlit)
+- **Visual Hierarchy:** Use columns, expanders, and headers to organize information.
+- **Feedback:** Use spinners for long-running operations and success/error messages for status.
+- **Clarity:** Clearly label inputs and outputs. Use metrics for high-level scores.
 
 ---
 

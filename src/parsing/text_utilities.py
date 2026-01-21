@@ -1,5 +1,6 @@
 from pathlib import Path
 import re
+import pypdf
 
 def read_text_file(path: str) -> str:
     """
@@ -19,6 +20,36 @@ def read_text_file(path: str) -> str:
     if not p.exists():
         raise FileNotFoundError(f"File not found: {p.resolve()}")
     return p.read_text(encoding="utf-8")
+
+def read_pdf_file(path: str) -> str:
+    """
+    Read and extract text from a PDF file using pypdf.
+    
+    Args:
+        path: File path (relative or absolute) to read
+        
+    Returns:
+        Extracted text content from all pages joined by newlines
+        
+    Raises:
+        FileNotFoundError: If the specified file does not exist
+        ValueError: If the file is encrypted or cannot be read
+    """
+    p = Path(path)
+    if not p.exists():
+        raise FileNotFoundError(f"File not found: {p.resolve()}")
+        
+    text_content = []
+    try:
+        reader = pypdf.PdfReader(str(p))
+        for page in reader.pages:
+            text = page.extract_text()
+            if text:
+                text_content.append(text)
+    except Exception as e:
+        raise ValueError(f"Error reading PDF file: {e}")
+        
+    return "\n".join(text_content)
 
 def normalize_text(text: str) -> str:
     """

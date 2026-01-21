@@ -1,4 +1,5 @@
 import json
+import os
 from datetime import datetime
 from src.parsing.job_parser import parse_jobs_from_file
 from src.parsing.resume_parser import parse_resume_from_file
@@ -10,7 +11,7 @@ def main():
     
     This function orchestrates the complete workflow:
     1. Parses job postings from a text file and saves structured data to JSON
-    2. Parses resume from a text file and saves structured data to JSON
+    2. Parses resume from a text or PDF file and saves structured data to JSON
     3. Matches resume skills against job requirements
     4. Displays top 5 job matches with scores and skill breakdowns
     5. Generates a comprehensive match report saved to JSON
@@ -22,7 +23,12 @@ def main():
     with open("data/structured_jobs.json", "w", encoding="utf-8") as f:
         json.dump(jobs, f, indent=2, ensure_ascii=False)
 
-    resume = parse_resume_from_file("data/resume.txt")
+    resume_path = "data/resume.txt"
+    if os.path.exists("data/resume.pdf"):
+        resume_path = "data/resume.pdf"
+        print(f"Detected PDF resume: {resume_path}")
+
+    resume = parse_resume_from_file(resume_path)
     with open("data/resume_structured.json", "w", encoding="utf-8") as f:
         json.dump(resume, f, indent=2, ensure_ascii=False)
 

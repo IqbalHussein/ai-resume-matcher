@@ -1,6 +1,6 @@
 import re
 from typing import Dict, List, Optional
-from src.parsing.text_utilities import read_text_file, normalize_text
+from src.parsing.text_utilities import read_text_file, read_pdf_file, normalize_text
 from src.config.skills import SOFT_ENG_SKILLS
 from src.parsing.skills_extraction import extract_skills
 
@@ -198,14 +198,15 @@ def split_resume_sections(resume_text: str) -> Dict[str, str]:
 
 def parse_resume_from_file(filename):
     """
-    Parse a resume text file into structured sections and extract skills.
+    Parse a resume text or PDF file into structured sections and extract skills.
     
-    Reads the resume file, normalizes the text, splits it into canonical sections
-    (summary, skills, experience, etc.), and extracts technical skills both from
-    the entire resume and specifically from the skills section.
+    Reads the resume file (detecting format by extension), normalizes the text,
+    splits it into canonical sections (summary, skills, experience, etc.), and
+    extracts technical skills both from the entire resume and specifically from
+    the skills section.
     
     Args:
-        filename: Path to the resume text file
+        filename: Path to the resume file (.txt or .pdf)
         
     Returns:
         Dictionary containing:
@@ -215,7 +216,11 @@ def parse_resume_from_file(filename):
         - 'skills_section': Skills extracted only from skills section
     """
 
-    raw_resume = read_text_file(filename)
+    if filename.lower().endswith(".pdf"):
+        raw_resume = read_pdf_file(filename)
+    else:
+        raw_resume = read_text_file(filename)
+
     resume_text = normalize_text(raw_resume)
 
     

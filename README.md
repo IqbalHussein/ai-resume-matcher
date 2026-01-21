@@ -13,3 +13,17 @@ source venv/bin/activate
 # venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+# Usage
+
+## CLI
+Run the main script to process files in `data/`:
+```bash
+python main.py
+```
+
+## Web Interface
+Run the Streamlit app for an interactive UI:
+```bash
+streamlit run streamlit_app.py
+```
