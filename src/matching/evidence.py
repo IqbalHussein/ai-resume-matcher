@@ -21,15 +21,6 @@ def _build_reverse_aliases() -> Dict[str, List[str]]:
 
 REVERSE_ALIASES = _build_reverse_aliases()
 
-# Strict patterns mirroring logic used during extraction
-STRICT_PATTERNS = {
-    "Go": re.compile(r"(?<![a-z0-9])go(?![a-z0-9])", re.IGNORECASE),
-    "SQL": re.compile(r"(?<![a-z0-9])sql(?![a-z0-9])", re.IGNORECASE),
-    "C++": re.compile(r"(?<![a-z0-9])c\+\+(?![a-z0-9])", re.IGNORECASE),
-    "C#": re.compile(r"(?<![a-z0-9])c#(?![a-z0-9])", re.IGNORECASE),
-    "C": re.compile(r"(?<![a-z0-9])c(?![a-z0-9])", re.IGNORECASE),
-}
-
 def _normalize_line(line: str) -> str:
     """
     Normalize a single line for evidence collection.
@@ -43,8 +34,8 @@ def _normalize_line(line: str) -> str:
     Returns:
         Normalized line with cleaned whitespace
     """
-    line = line.strip().replace("%nbsp;", "")
-    line = re.sub(r"\s+", "", line)
+    line = line.strip().replace("&nbsp;", " ")
+    line = re.sub(r"\s+", " ", line)
     return line
 
 def find_skill_evidence(text: str, skills: List[str], max_lines_per_skill: int = 3) -> Dict[str, List[str]]:
@@ -55,8 +46,8 @@ def find_skill_evidence(text: str, skills: List[str], max_lines_per_skill: int =
     containing that skill (or its aliases). Returns up to max_lines_per_skill
     evidence lines for each skill found, with line numbers for easy reference.
     
-    Handles strict skills (C, C++, Go, SQL, C#) using regex patterns with word
-    boundaries, and other skills using case-insensitive substring matching.
+    Uses regex patterns with alphanumeric boundaries to avoid false positives 
+    (e.g., prevents matching 'c' inside 'account').
     
     Args:
         text: The text to search (job posting or resume)
@@ -75,32 +66,23 @@ def find_skill_evidence(text: str, skills: List[str], max_lines_per_skill: int =
 
     for skill in skills:
         evidence: List[str] = []
-
-        # 1) Strict skills (C/C++/Go/SQL etc.)
-        if skill in STRICT_PATTERNS:
-            pat = STRICT_PATTERNS[skill]
-            for i, line in enumerate(lines, start=1):
-                if pat.search(line):
-                    evidence.append(f"L{i}: {line}")
-                    if len(evidence) >= max_lines_per_skill:
-                        break
-            if evidence:
-                out[skill] = evidence
-            continue
-
-        # 2) Non-strict: search skill + alias phrases (case-insensitive substring)
-        needles = [skill.lower()]
-        # add alias variants that map to this canonical skill
+        
+        # Build search patterns: canonical name + aliases
+        needles = [skill]
         for alias in REVERSE_ALIASES.get(skill, []):
-            needles.append(alias.lower())
+            needles.append(alias)
+            
+        # Combine into a single regex with alphanumeric boundaries
+        # This handles short skills (C) and special chars (C++, C#) safely
+        patterns = [rf"(?<![a-z0-9]){re.escape(n)}(?![a-z0-9])" for n in needles]
+        combined_pat = re.compile("|".join(patterns), re.IGNORECASE)
 
         for i, line in enumerate(lines, start=1):
-            low = line.lower()
-            if any(n in low for n in needles):
+            if combined_pat.search(line):
                 evidence.append(f"L{i}: {line}")
                 if len(evidence) >= max_lines_per_skill:
                     break
-
+        
         if evidence:
             out[skill] = evidence
 

@@ -4,6 +4,7 @@ from src.config.weights import SKILL_WEIGHTS
 from src.matching.evidence import find_skill_evidence
 from src.matching.semantic import SemanticMatcher
 import re
+from typing import Callable, Optional
 
 def _clean_evidence(evidence_list: list[str]) -> str:
     """
@@ -17,7 +18,12 @@ def _clean_evidence(evidence_list: list[str]) -> str:
         clean_text.append(text)
     return " ".join(clean_text)
 
-def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str], resume_data: dict = None) -> list[dict]:
+def match_resume_to_jobs(
+    structured_jobs: list[dict], 
+    resume: list[str], 
+    resume_data: dict = None,
+    progress_callback: Optional[Callable[[float], None]] = None
+) -> list[dict]:
     """
     Match a resume against multiple job postings using weighted skill scoring and multi-factor semantic analysis.
     
@@ -35,6 +41,7 @@ def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str], resume_
         structured_jobs: List of job dictionaries with 'skills', 'text', etc.
         resume: List of skill strings from the resume (legacy/fallback).
         resume_data: Complete resume dictionary containing 'text' and 'sections'.
+        progress_callback: Optional function to report progress (0.0 to 1.0).
         
     Returns:
         List of match result dictionaries sorted by score (descending), each containing:
@@ -76,7 +83,9 @@ def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str], resume_
         res_emb_exp = semantic_matcher.encode(res_text_exp)
         res_emb_skills = semantic_matcher.encode(res_text_skills)
 
-    for job in structured_jobs:
+    total_jobs = len(structured_jobs)
+    
+    for i, job in enumerate(structured_jobs):
         job_skills = job.get("skills", [])
         job_set = set(job_skills)
 
@@ -171,6 +180,9 @@ def match_resume_to_jobs(structured_jobs: list[dict], resume: list[str], resume_
                 "resume": resume_evidence
             }
         })
+        
+        if progress_callback:
+            progress_callback((i + 1) / total_jobs)
 
     results.sort(key=lambda x: (x["score"], x["semantic_score"], x["matched_weight"], x["matched_count"]), reverse=True)
     return results

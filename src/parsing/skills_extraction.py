@@ -17,8 +17,6 @@ def _get_nlp() -> Language:
     
     nlp = spacy.load("en_core_web_sm")
     
-    ruler = nlp.add_pipe("entity_ruler", before="ner")
-    
     patterns = []
     
     for key, canonical in STRICT_SKILLS.items():
@@ -50,7 +48,10 @@ def _get_nlp() -> Language:
         pattern_lower = [{"LOWER": token.text.lower()} for token in doc]
         patterns.append({"label": "SKILL", "pattern": pattern_lower, "id": skill})
 
+    # Add ruler after generating patterns to avoid empty ruler warnings
+    ruler = nlp.add_pipe("entity_ruler", before="ner")
     ruler.add_patterns(patterns)
+    
     _nlp = nlp
     return _nlp
 
@@ -64,8 +65,6 @@ def extract_skills(text: str, soft_eng_skills: list[str]) -> list[str]:
     Args:
         text: The text to search (job posting or resume)
         soft_eng_skills: List of canonical skill names to filter results against.
-                         (Note: The EntityRuler is built from the global config,
-                          so this argument acts as a filter for the return value).
         
     Returns:
         Sorted list of unique, canonicalized skill names found in the text.
