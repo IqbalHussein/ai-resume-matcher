@@ -1,6 +1,8 @@
 import spacy
 from spacy.language import Language
 from src.config.skills import ALIASES, STRICT_SKILLS, SOFT_ENG_SKILLS
+import subprocess
+import sys
 
 _nlp = None
 
@@ -15,7 +17,13 @@ def _get_nlp() -> Language:
     if _nlp is not None:
         return _nlp
     
-    nlp = spacy.load("en_core_web_sm")
+    try:
+        nlp = spacy.load("en_core_web_sm")
+    except OSError:
+        # Fallback: try to download it if missing
+        print("Model 'en_core_web_sm' not found. Downloading...")
+        subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
+        nlp = spacy.load("en_core_web_sm")
     
     patterns = []
     
